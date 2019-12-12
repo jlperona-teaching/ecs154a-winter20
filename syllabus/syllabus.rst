@@ -7,6 +7,8 @@
 .. _Gradescope: https://www.gradescope.com/courses/75747
 .. _schedule: https://github.com/jlperona-teaching/ecs154a-winter20/blob/master/syllabus/schedule.csv
 
+
+
 ================================
 ECS 154A - Computer Architecture
 ================================
@@ -17,11 +19,7 @@ See the LICENSE file for more information.
 Credit for the course layout and some of the content is given to Jason Lowe-Power of UC Davis.
 Credit for a significant portion of the content is given jointly to Sean Davis and Matthew Farrens of UC Davis.
 
-Table of Contents
------------------
-
-.. contents::
-  :depth: 3
+.. contents:: Table of Contents
 
 Class
 -----
