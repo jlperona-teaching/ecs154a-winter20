@@ -7,8 +7,6 @@
 .. _Gradescope: https://www.gradescope.com/courses/75747
 .. _schedule: https://github.com/jlperona-teaching/ecs154a-winter20/blob/master/syllabus/schedule.csv
 
-
-
 ================================
 ECS 154A - Computer Architecture
 ================================
@@ -19,7 +17,7 @@ See the LICENSE file for more information.
 Credit for the course layout and some of the content is given to Jason Lowe-Power of UC Davis.
 Credit for a significant portion of the content is given jointly to Sean Davis and Matthew Farrens of UC Davis.
 
-.. contents:: Table of Contents
+.. contents:: **Table of Contents**
 
 Class
 -----
@@ -27,12 +25,18 @@ Class
 Lecture
 ~~~~~~~
 
-*Under construction.*
+*Monday, Wednesday, Friday*: 17:10 - 18:00, 176 Everson
 
 Discussions
 ~~~~~~~~~~~
 
-*Under construction.*
+*A01*: Tuesday, 08:00 - 08:50, 1132 Bainer
+
+*A02*: Tuesday, 13:10 - 14:00, **TBA**
+
+*A03*: Friday, 14:10 - 15:00, 1132 Bainer
+
+*A04*: Wednesday, 14:10 - 15:00, 147 Olson
 
 Description
 ~~~~~~~~~~~
@@ -63,7 +67,7 @@ Unsolicited emails about the course will be ignored.
 Office Hours
 """"""""""""
 
-*Under construction.*
+*Monday, Thursday*: 14:40 - 16:00, **TBA** Kemper
 
 Other office hours by appointment.
 Email me to schedule an appointment.
