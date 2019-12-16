@@ -38,6 +38,8 @@ Discussions
 
 *A04*: Wednesday, 14:10 - 15:00, 147 Olson
 
+There will be discussions during the first week of class.
+
 Description
 ~~~~~~~~~~~
 
@@ -69,7 +71,10 @@ Office Hours
 
 *Monday, Thursday*: 14:40 - 16:00, **TBA** Kemper
 
-Other office hours by appointment.
+There will be no office hours on the first day of class, 2020-01-06.
+Changes to other office hours will be announced on Campuswire_.
+
+Other office hours can be made by appointment.
 Email me to schedule an appointment.
 
 Social Hour
@@ -113,20 +118,21 @@ Campuswire
 
 We will use Campuswire_ for class discussions outside of the classroom.
 It will serve as the discussion board for this quarter.
-If you've used Piazza before, it's very similar, though it has some additional features that I think are nice.
 The TAs and I will be on Campuswire to answer questions.
 
-It's best to ask your questions on Campuswire.
-That way, all of your classmates can see the answer instead of emailing the TA or me.
+On Campuswire, all of your classmates can see the answer instead of emailing the TA or me.
+Your question, and the answer to your question, can help somebody else who might have the same question.
 Additionally, you may get a faster response from one of your classmates.
+If you've used Piazza before, it's very similar, though it has some additional features that I think are nice, such as the direct messaging.
 
-*Under construction.*
-
-In the spirit of the above, please post questions to everyone on Campuswire, if possible.
-This way, your question, and the answer to your question, can help somebody else who might have the same question.
 We will change the visibility of questions posted only to instructors to everyone, if we deem it appropriate.
 If your question involves code you've written, or is about a personal issue, we will leave those private.
-The same applies to questions asked via direct message—we will redirect you to Campuswire if appropriate.
+The same applies to questions asked via direct message—we will ask you to repost to everyone if appropriate.
+
+Campuswire has a reputation system.
+The more you contribute to the class on Campuswire, the higher your reputation level becomes.
+To encourage you to participate on Campuswire, you will get extra credit depending on what reputation level you have achieved at the end of the course.
+For more information, see the `Extra Credit`_ section below.
 
 Other Important Information
 ---------------------------
@@ -139,7 +145,7 @@ Regrade requests must be made within one week of the return of the assignment or
 Accommodations
 ~~~~~~~~~~~~~~
 
-The exam schedule is available on the schedule_.
+The exam dates are available on the schedule_.
 Per `official UC Davis policy`_, if you have an accommodation request from the `Student Disability Center`_, or have any conflicts with exam times for religious observances, you must notify me by the **fourth class, Monday, 2020-01-13**.
 
 .. _official UC Davis policy: https://academicsenate.ucdavis.edu/bylaws-regulations/regulations#538-
@@ -150,6 +156,7 @@ Student Support
 
 As a student, you may experience a range of issues that can cause barriers to learning, such as strained relationships, increased anxiety, alcohol/drug problems, feeling down, difficulty concentrating and/or lack of motivation.
 These mental health concerns or stressful events may lead to diminished academic performance or reduce a student’s ability to participate in daily activities.
+
 UC Davis is committed to advancing the mental health and well-being of its students.
 If you or someone you know is feeling overwhelmed, depressed, and/or in need of support, services are available.
 You can learn more about the broad range of confidential mental health services available on campus via `Student Health and Counseling Services`_.
@@ -167,7 +174,7 @@ Academic misconduct is a serious issue.
 You can find the official UC Davis policy on the `Office of Student Support and Judicial Affairs`_ website.
 The `Code of Academic Conduct`_ also contains more information.
 
-As it notes on the README_ for this repository, public forks of this repository with assignment code in them abet cheating.
+As it notes on the `main README`_ for this repository, public forks of this repository with assignment code in them abet cheating.
 Any public forks with code in them will be considered academic misconduct.
 
 The labs will be partner assignments.
@@ -184,7 +191,7 @@ As stated in the Code of Academic Conduct:
 
     If academic misconduct is admitted or is determined by adjudication to have occurred, instructors may assign a grade penalty no greater than "F" for the course in question.
 
-.. _README: https://github.com/jlperona-teaching/ecs154a-winter20/blob/master/README.md
+.. _`main README`: https://github.com/jlperona-teaching/ecs154a-winter20/blob/master/README.md
 .. _`Office of Student Support and Judicial Affairs`: https://ossja.ucdavis.edu
 .. _`Code of Academic Conduct`: https://ossja.ucdavis.edu/code-academic-conduct
 
@@ -195,45 +202,41 @@ Grading Breakdown
 ~~~~~~~~~~~~~~~~~
 
 ==================== ===
-Canvas Quizzes (10x) 10%
 Labs (5x)            40%
+Canvas Quizzes (10x) 10%
 Midterm              20%
 Final                30%
-Extra Credit         TBD
+Extra Credit         5%
 ==================== ===
+
+Labs
+~~~~
+
+You will complete five lab assignments throughout this course.
+The labs and their due dates can be found in their respective folders on the main page of this GitHub_ repository.
+All together, the labs are worth 40% of your final grade, though some labs may be weighted more than others.
+
+For all labs, you are recommended to work with a partner, but it is not required.
+You do not have to keep the same partner throughout the whole quarter; you can change who you work with.
+I suggest using Campuswire_ to find partners.
 
 Canvas Quizzes
 ~~~~~~~~~~~~~~
 
 *Under construction.*
 
-Labs
-~~~~
-
-You will complete five lab assignments throughout this course.
-The labs can found via the links below.
-All together, the labs are worth 40% of your final grade, though some labs may be weighted more than others.
-
-*Under construction.*
-
-For all labs, you may (and are suggested to) work with a partner.
-You do not have to keep the same partner throughout the whole quarter; you can change who you work with.
-I suggest using Campuswire_ to find partners.
-
-.. _Lab 1: https://github.com/jlperona-teaching/ecs154a-winter20/blob/master/lab1/lab1.rst
-.. _Lab 2: https://github.com/jlperona-teaching/ecs154a-winter20/blob/master/lab2/lab2.rst
-.. _Lab 3: https://github.com/jlperona-teaching/ecs154a-winter20/blob/master/lab3/lab3.rst
-.. _Lab 4: https://github.com/jlperona-teaching/ecs154a-winter20/blob/master/lab4/lab4.rst
-.. _Lab 5: https://github.com/jlperona-teaching/ecs154a-winter20/blob/master/lab5/lab5.rst
-
 Late Assignments
 ~~~~~~~~~~~~~~~~
 
 If you turn in a lab late, you will lose points.
-The percentage of points you will lose is given by the equation below.
-This will give you partial points up to 48 hours after the due date.
+The percentage of points you will lose is given below, where *x* is the number of hours you are late.
 
-*Under construction.*
+* 0 ≤ *x* < 24: 85% credit
+* 24 ≤ *x* < 48: 70% credit
+* 48 ≤ *x*: no credit
+
+This will give you partial points up to 48 hours after the due date.
+This system is to encourage you to get some sleep and try again in the morning if you miss a deadline, rather than constantly working for hours after the deadline with no sleep as a linear drop-off system encourages.
 
 Late quiz submissions will not be allowed.
 
