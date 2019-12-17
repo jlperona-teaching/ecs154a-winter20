@@ -75,7 +75,7 @@ There will be no office hours on the first day of class, 2020-01-06.
 Changes to other office hours will be announced on Campuswire_.
 
 Other office hours can be made by appointment.
-Email me to schedule an appointment.
+Direct message me on Campuswire to schedule an appointment.
 
 Social Hour
 """""""""""
@@ -85,7 +85,23 @@ Social Hour
 Teaching Assistants
 ~~~~~~~~~~~~~~~~~~~
 
-*Under construction.*
+Private communication to the TAs should take place solely via Campuswire_ direct messages.
+Unsolicited emails about the course will be ignored.
+
+Matthew Farrer
+""""""""""""""
+
+**Office Hours**: **TBA**
+
+Minqiang Hu
+"""""""""""
+
+**Office Hours**: **TBA**
+
+Oleg Igouchkine
+"""""""""""""""
+
+**Office Hours**: **TBA**
 
 Websites
 --------
@@ -103,7 +119,7 @@ Other downloaded versions of documents may become out of date.
 Canvas
 ~~~~~~
 
-We will use Canvas_ for the weekly quizzes and for grade keeping.
+We will use Canvas_ for the weekly quizzes and for the gradebook.
 
 Gradescope
 ~~~~~~~~~~
@@ -223,7 +239,15 @@ I suggest using Campuswire_ to find partners.
 Canvas Quizzes
 ~~~~~~~~~~~~~~
 
-*Under construction.*
+There will be weekly quizzes on Canvas, due Fridays before lecture.
+There are 10 quizzes; an individual quiz is worth 1% of your overall grade.
+For each quiz, you get 5 attempts.
+You can work on these quizzes by yourself or in groups of however many people you want.
+
+The point of these quizzes isn't to test your knowledge or punish you for not paying attention in lecture.
+They are meant to help you reinforce the material you've learned during the previous week.
+They also serve as practice for the midterm and final.
+I want everybody to get 100% on these quizzes and learn the material.
 
 Late Assignments
 ~~~~~~~~~~~~~~~~
