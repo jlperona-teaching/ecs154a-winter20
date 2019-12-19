@@ -32,7 +32,7 @@ Discussions
 
 *A01*: Tuesday, 08:00 - 08:50, 1132 Bainer
 
-*A02*: Tuesday, 13:10 - 14:00, **TBA**
+*A02*: Tuesday, 12:10 - 13:00, 261 Olson
 
 *A03*: Friday, 14:10 - 15:00, 1132 Bainer
 
@@ -293,7 +293,17 @@ Readings and Schedule
 Textbook
 ~~~~~~~~
 
-*Under construction.*
+The following textbooks are optional:
+
+* *Computer Organization and Architecture* by William Stallings.
+* *Digital McLogic Design* by Bryan Mealy and James Mealy.
+
+Problems won't be assigned out of the textbooks; they're just there if you need further reference.
+Having them might be helpful, but my lecture notes should be sufficient.
+
+I will post chapters to read for both the 9th and 10th edition of the Stallings book; get whichever one you can find or is cheaper.
+You can find a copy of the Mealy and Mealy book on Canvas_.
+See the schedule_ for reading dates for both books.
 
 Schedule
 ~~~~~~~~
