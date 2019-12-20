@@ -80,7 +80,17 @@ Direct message me on Campuswire to schedule an appointment.
 Social Hour
 """""""""""
 
-*Under construction.*
+*Wednesday*: 18:30 - 19:30, Temple Coffee Roasters, 239 G Street
+
+This hour is set aside to chat with students about anything other than the course.
+I've had great conversations with past students on topics unrelated to class.
+Want to ask me questions over tea or coffee about graduate school, my favorite electronic artists, or something else?
+Here's your chance.
+
+Please leave questions about the course at the door.
+Instead, enjoy some tea or coffee and socialize with me and your fellow students.
+
+Credit for the idea is given to Aakash Prabhu of UC Davis.
 
 Teaching Assistants
 ~~~~~~~~~~~~~~~~~~~
@@ -110,7 +120,7 @@ GitHub
 ~~~~~~
 
 We will use GitHub_ as the main website for the course.
-It will also contain all of the documents for the course, such as labs, lecture notes, the schedule, and the syllabus you're currently reading.
+It will also contain all of the documents for the course, such as labs, lecture notes, lecture outlines, the schedule, and the syllabus you're currently reading.
 
 The versions of documents found on GitHub are the canonical versions of all documents.
 If I make changes to those documents, they will appear first here on GitHub.
@@ -119,7 +129,7 @@ Other downloaded versions of documents may become out of date.
 Canvas
 ~~~~~~
 
-We will use Canvas_ for the weekly quizzes and for the gradebook.
+We will use Canvas_ for the weekly quizzes and as the gradebook.
 
 Gradescope
 ~~~~~~~~~~
@@ -144,10 +154,11 @@ If you've used Piazza before, it's very similar, though it has some additional f
 We will change the visibility of questions posted only to instructors to everyone, if we deem it appropriate.
 If your question involves code you've written, or is about a personal issue, we will leave those private.
 The same applies to questions asked via direct message—we will ask you to repost to everyone if appropriate.
+(It's in your interest to post to everyone due to the reputation system; see below.)
 
 Campuswire has a reputation system.
-The more you contribute to the class on Campuswire, the higher your reputation level becomes.
-To encourage you to participate on Campuswire, you will get extra credit depending on what reputation level you have achieved at the end of the course.
+The more you contribute to the class on Campuswire, the higher your reputation becomes.
+To encourage you to participate on Campuswire, you will get extra credit depending on the amount of reputation you have earned by the end of the course.
 For more information, see the `Extra Credit`_ section below.
 
 Other Important Information
@@ -187,8 +198,8 @@ Academic Misconduct
 ~~~~~~~~~~~~~~~~~~~
 
 Academic misconduct is a serious issue.
-You can find the official UC Davis policy on the `Office of Student Support and Judicial Affairs`_ website.
-The `Code of Academic Conduct`_ also contains more information.
+Read the `Academic Misconduct Policy`_ of the Department of Computer Science for more detailed information on what constitutes academic misconduct.
+Any violations of the `Code of Academic Conduct`_ will result in reporting the violating student(s) to the `Office of Student Support and Judicial Affairs`_.
 
 As it notes on the `main README`_ for this repository, public forks of this repository with assignment code in them abet cheating.
 Any public forks with code in them will be considered academic misconduct.
@@ -198,18 +209,11 @@ Feel free to share ideas with other groups.
 You may not share code or circuits, however.
 If you're looking at another group's code or circuits, odds are that you've gone past simply sharing ideas.
 
-You are expected to *cite all of the work you reference*.
-Any ideas that are not specifically yours or generally known (e.g., caches hold data) should have a citation.
-When in doubt, cite.
-
-Any violations of the Code of Academic Conduct will result in reporting the violating student(s) to the Office of Student Support and Judicial Affairs.
-As stated in the Code of Academic Conduct:
-
-    If academic misconduct is admitted or is determined by adjudication to have occurred, instructors may assign a grade penalty no greater than "F" for the course in question.
-
-.. _`main README`: https://github.com/jlperona-teaching/ecs154a-winter20/blob/master/README.md
+.. _`Academic Misconduct Policy`: https://www.cs.ucdavis.edu/blog/academic-misconduct-policy/
+.. _`Code of Academic Conduct`: https://supportjudicialaffairs.sf.ucdavis.edu/code-academic-conduct
 .. _`Office of Student Support and Judicial Affairs`: https://ossja.ucdavis.edu
-.. _`Code of Academic Conduct`: https://ossja.ucdavis.edu/code-academic-conduct
+.. _`main README`: https://github.com/jlperona-teaching/ecs154a-winter20/blob/master/README.md
+
 
 Assignments and Tests
 ---------------------
@@ -285,7 +289,33 @@ No asking your neighbors for help, and no electronic devices.
 Extra Credit
 ~~~~~~~~~~~~
 
-*Under construction.*
+You can get up to 5% extra credit in the course.
+This is a bit more than half a letter grade.
+You can earn extra credit in the following ways:
+
+Campuswire Reputation
+"""""""""""""""""""""
+
+You can get some extra credit for participating on Campuswire_.
+Campuswire keeps track of your contributions via a reputation system.
+We'll assign extra credit based on that.
+
+You will not get any extra credit if we determine you are gaming contributions to Campuswire.
+
+Class/Office Hours Participation
+""""""""""""""""""""""""""""""""
+
+This is up to my and the TAs' discretion.
+A good way to start is to make sure we learn your name :).
+
+Surveys
+"""""""
+
+There will be two extra credit surveys during the quarter: one in the middle, and one near the end.
+The surveys will ask you questions about how you feel about the course and what could be improved.
+
+More information about these will be posted on Canvas.
+Complete these and you'll get some extra credit.
 
 Readings and Schedule
 -------------------------
