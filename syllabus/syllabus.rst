@@ -271,8 +271,8 @@ Late quiz submissions will not be allowed.
 Midterm
 ~~~~~~~
 
-The midterm is on Friday, 2020-02-07, from 17:10 - 18:00.
-The midterm covers content through 2020-02-05.
+The midterm is on Friday, 2020-02-14, from 17:10 - 18:00.
+The midterm covers content through 2020-02-12.
 
 The midterm is closed-book and closed-note.
 No asking your neighbors for help, and no electronic devices.
@@ -318,10 +318,10 @@ More information about these will be posted on Canvas.
 Complete these and you'll get some extra credit.
 
 Readings and Schedule
--------------------------
+----------------------
 
-Textbook
-~~~~~~~~
+Textbooks
+~~~~~~~~~
 
 The following textbooks are optional:
 
@@ -339,3 +339,4 @@ Schedule
 ~~~~~~~~
 
 See the official schedule_ on GitHub.
+Topics for future dates on the schedule are tentative and subject to change.
