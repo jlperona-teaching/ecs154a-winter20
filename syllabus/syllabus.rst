@@ -69,7 +69,7 @@ Unsolicited emails about the course will be ignored.
 Office Hours
 """"""""""""
 
-*Monday, Thursday*: 14:40 - 16:00, **TBA** Kemper
+*Monday, Thursday*: 14:40 - 16:00, 67 Kemper (CSIF)
 
 There will be no office hours on the first day of class, 2020-01-06.
 Changes to other office hours will be announced on Campuswire_.
@@ -281,7 +281,7 @@ Final
 ~~~~~
 
 The final is on Friday, 2020-03-20, from 10:30 - 12:30.
-The final is cumulative.
+The final is cumulative, with emphasis placed on material after the midterm.
 
 The final is closed-book and closed-note.
 No asking your neighbors for help, and no electronic devices.
@@ -331,7 +331,8 @@ The following textbooks are optional:
 Problems won't be assigned out of the textbooks; they're just there if you need further reference.
 Having them might be helpful, but my lecture notes should be sufficient.
 
-I will post chapters to read for both the 9th and 10th edition of the Stallings book; get whichever one you can find or is cheaper.
+For the Stallings book, the 9th and 10th editions are almost identical in chapter structure.
+Get whichever one you can find or is cheaper.
 You can find a copy of the Mealy and Mealy book on Canvas_.
 See the schedule_ for reading dates for both books.
 
