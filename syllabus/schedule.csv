@@ -1,5 +1,5 @@
 Day,Date,Lecture Number,Class Type,Milestone,Topics Covered,Reading (Stallings),Reading (Mealy)
-Monday,2020-01-06,1,Lecture,,"Introduction, motivation, performance","1.1, 1.2, 1.3/2.1 (10e/9e)",
+Monday,2020-01-06,1,Lecture,,"Introduction, motivation, basic definitions","1.1, 1.2, 1.3/2.1 (10e/9e)",
 Wednesday,2020-01-08,2,Lecture,,"Analog vs. digital, Boolean algebra, equivalence laws",11.1 - 11.2,5.1 - 5.2.2
 Friday,2020-01-10,3,Lecture,,"Gates, truth tables",11.2 - 11.3,"5.2.3, 6, 8, 9.1 - 9.2.2"
 Monday,2020-01-13,4,Lecture,,"Karnaugh maps, minimization",11.3,9.2.3 - 9.2.4
