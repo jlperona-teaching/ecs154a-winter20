@@ -11,6 +11,12 @@
 ECS 154A - Computer Architecture
 ================================
 
+.. contents::
+  :local:
+
+License and Attribution
+-----------------------
+
 Content is licensed under CC BY-NC 4.0.
 See the LICENSE_ file for more information.
 
@@ -18,12 +24,6 @@ Credit for the course layout and some of the content is given to Jason Lowe-Powe
 Credit for a significant portion of the content is given jointly to Sean Davis and Matthew Farrens of UC Davis.
 
 .. _LICENSE: https://github.com/jlperona-teaching/ecs154a-winter20/blob/master/LICENSE
-
-Table of Contents
------------------
-
-.. contents::
-  :local:
 
 Class
 -----
