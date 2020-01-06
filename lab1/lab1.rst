@@ -110,10 +110,11 @@ You can reset the simulation back to the start with Ctrl-R to test again after y
 
 * Submission file for this part: *lab1problem2.circ*
 * Main circuit name: *minterm*
-* Input pin(s): *4bitinput* [4]
+* Input pin(s): *fourbitinput* [4]
 * Output pin(s): *h* [1]
 
 Implement the minterm m_14 for a 4 bit input.
+You will need to learn how to use a splitter to access the individual bits.
 
 You may not use OR nor NOR gates for this problem.
 
@@ -122,7 +123,7 @@ You may not use OR nor NOR gates for this problem.
 
 * Submission file for this part: *lab1problem3.circ*
 * Main circuit name: *maxterm*
-* Input pin(s): *4bitinput* [4]
+* Input pin(s): *fourbitinput* [4]
 * Output pin(s): *j* [1]
 
 Implement the maxterm M_6 for a 4 bit input.
@@ -134,48 +135,90 @@ You may not use AND nor NAND gates for this problem.
 
 * Submission file for this part: *lab1problem4.circ*
 * Main circuit name: *karnaugh*
-* Input pin(s): *4bitinput* [4]
+* Input pin(s): *fourbitinput* [4]
 * Output pin(s): *k* [1]
 
 Derive and implement a minimum sum-of-products expression for the following function:
 
-    k(4bitinput) = m0 + D2 + m4 + m6 + D7 + D8 + m10 + m13 + m14
+    k(fourbitinput) = m0 + D2 + m4 + m6 + D7 + D8 + m10 + m13 + m14
 
 m stands for minterm, and D stands for don't care.
 
-5. Single-digit seven-segment display [35]
+5. Single-digit seven-segment display [30]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Submission file for this part: *lab1problem5.circ*
 * Main circuit name: *singledigit*
-* Input pin(s):
-* Output pin(s):
+* Input pin(s): *i* [4]
+* Output pin(s): *a* [1], *b* [1], *c* [1], *d* [1], *e* [1], *f* [1], *g* [1]
 
-**Under construction.**
+Given the following binary-coded-decimal to seven-segment display code converter, derive minimal sum-of-products expressions for the outputs *a*, *b*, *c*, *d*, *e*, *f*, and *g* of the seven-segment display.
+Implement the resulting circuits.
 
-6. Triple-digit display [15]
+.. image:: seven-segment-display.png
+    :width: 50%
+    :align: center
+
+====== ====== ====== ====== = === === === === === === ===
+**i3** **i2** **i1** **i0** - *a* *b* *c* *d* *e* *f* *g*
+0      0      0      0      - 1   1   1   1   1   1   0
+0      0      0      1      - 0   1   1   0   0   0   0
+0      0      1      0      - 1   1   0   1   1   0   1
+0      0      1      1      - 1   1   1   1   0   0   1
+0      1      0      0      - 0   1   1   0   0   1   1
+0      1      0      1      - 1   0   1   1   0   1   1
+0      1      1      0      - 1   0   1   1   1   1   1
+0      1      1      1      - 1   1   1   0   0   0   0
+1      0      0      0      - 1   1   1   1   1   1   1
+1      0      0      1      - 1   1   1   1   0   1   1
+====== ====== ====== ====== = === === === === === === ===
+
+The 3rd and most significant bit of the input *i* corresponds to **i3** on the table.
+Similarly, the 0th and least significant bit of the input *i* corresponds to **i0** on the table.
+We will use this naming system throughout the class.
+
+Testing this problem is best done manually by attaching the relevant inputs to the *7-Segment Display* module from the Input/Output library of Logisim.
+Feel free to leave it inside your circuit if you want before submission; it won't affect the testing.
+
+6. Triple-digit display [20]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Submission file for this part: *lab1problem6.circ*
 * Main circuit name: *tripledigit*
-* Input pin(s):
-* Output pin(s):
+* Input pin(s): *thousand* [10]
+* Output pin(s): *hundreds* [7], *tens* [7], *ones* [7]
 
-**Under construction.**
+This problem builds upon the previous one.
+Using your circuits from the previous problem, build a triple-digit display that can display numbers between 0 and 999.
+The input number to display is provided in *thousand*.
+Note that *thousand* is 10 bits and thus has a maximum of 1024; numbers higher than 999 won't be tested so you may ignore them.
+
+The image below shows an example of how the circuit works for an input value of 36.
+
+.. image:: triple-digit-display.png
+    :width: 50%
+    :align: center
+
+For the output pins, concatenate your values for *a*, *b*, *c*, *d*, *e*, *f*, and *g* in that order for each relevant digit.
+Thus, the 6th and most significant bit should be your *a* output for that digit, while the 0th and least significant bit should be your *g* output for that digit.
 
 You may use anything in the Logisim Arithmetic library for this problem.
+Testing this problem is best done manually by attaching relevant inputs to *7-Segment Display* modules from the Input/Output library of Logisim.
+Feel free to leave them inside your circuit if you want before submission; they won't affect the testing.
 
-7. 8-to-1 multiplexor [15]
+7. 4-to-1 multiplexor [15]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Submission file for this part: *lab1problem7.circ*
 * Main circuit name: *multiplexor*
-* Input pin(s):
-* Output pin(s):
+* Input pin(s): *inputzero* [3], *inputone* [3], *inputtwo* [3], *inputthree* [3], *selector* [2]
+* Output pin(s): *muxoutput* [3]
 
-**Under construction.**
+Create a 4-to-1 multiplexer that uses three data bits.
+The *selector* input chooses between which of the four *input* pins to output to *muxoutput*.
+Hint: the lecture notes show how to make a 4-to-1 multiplexor with one data bit, but you'll need to figure out what to modify to support more data bits.
 
-You may not use MUXes for this problem as it defeats the purpose.
+You may not use MUXes for this problem as it defeats the purpose of the problem.
 
 Survey [5]
 ----------
