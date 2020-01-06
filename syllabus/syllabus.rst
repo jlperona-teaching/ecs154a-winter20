@@ -1,5 +1,6 @@
 :Author: Justin Perona
 :Copyright: © 2020 Justin Perona
+:License: CC BY-NC 4.0
 
 .. _Campuswire: https://campuswire.com/c/G59B70B2E
 .. _Canvas: https://canvas.ucdavis.edu/
