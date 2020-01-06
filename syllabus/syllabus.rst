@@ -1,5 +1,5 @@
 :Author: Justin Perona
-:Copyright: © 2019 Justin Perona
+:Copyright: © 2020 Justin Perona
 
 .. _Campuswire: https://campuswire.com/c/G59B70B2E
 .. _Canvas: https://canvas.ucdavis.edu/
@@ -11,13 +11,19 @@
 ECS 154A - Computer Architecture
 ================================
 
-Content is licensed under CC BY NC 4.0.
-See the LICENSE file for more information.
+Content is licensed under CC BY-NC 4.0.
+See the LICENSE_ file for more information.
 
 Credit for the course layout and some of the content is given to Jason Lowe-Power of UC Davis.
 Credit for a significant portion of the content is given jointly to Sean Davis and Matthew Farrens of UC Davis.
 
-.. contents:: **Table of Contents**
+.. _LICENSE: https://github.com/jlperona-teaching/ecs154a-winter20/blob/master/LICENSE
+
+Table of Contents
+-----------------
+
+.. contents::
+  :local:
 
 Class
 -----
@@ -129,13 +135,13 @@ Other downloaded versions of documents may become out of date.
 Canvas
 ~~~~~~
 
-We will use Canvas_ for the weekly quizzes and as the gradebook.
+We will use Canvas_ for weekly quizzes, surveys, and as the gradebook.
 
 Gradescope
 ~~~~~~~~~~
 
 We will use Gradescope_ for lab submissions, as well as for returning the midterm and the final.
-Gradescope's autograder will give you relatively quick feedback about your lab submissions.
+Gradescope's autograder will give you quick feedback about your lab submissions.
 For the exams, Gradescope gives you a graded PDF version of your test, along with a rubric, immediately after we're done grading.
 You will receive an email from Gradescope to make your account at the start of the class.
 
@@ -149,7 +155,7 @@ The TAs and I will be on Campuswire to answer questions.
 On Campuswire, all of your classmates can see the answer instead of emailing the TA or me.
 Your question, and the answer to your question, can help somebody else who might have the same question.
 Additionally, you may get a faster response from one of your classmates.
-If you've used Piazza before, it's very similar, though it has some additional features that I think are nice, such as the direct messaging.
+If you've used Piazza before, it's very similar, though it has some additional features (like the direct messaging) that I think are useful.
 
 We will change the visibility of questions posted only to instructors to everyone, if we deem it appropriate.
 If your question involves code you've written, or is about a personal issue, we will leave those private.
@@ -157,9 +163,9 @@ The same applies to questions asked via direct message—we will ask you to repo
 (It's in your interest to post to everyone due to the reputation system; see below.)
 
 Campuswire has a reputation system.
-The more you contribute to the class on Campuswire, the higher your reputation becomes.
+The more you publicly contribute to the class on Campuswire, the higher your reputation becomes.
 To encourage you to participate on Campuswire, you will get extra credit depending on the amount of reputation you have earned by the end of the course.
-For more information, see the `Extra Credit`_ section below.
+For more information, see the `Extra Credit`_ section.
 
 Other Important Information
 ---------------------------
@@ -168,6 +174,7 @@ Regrade Requests
 ~~~~~~~~~~~~~~~~
 
 Regrade requests must be made within one week of the return of the assignment or test.
+Instructions for requests will be given at the time of the return.
 
 Accommodations
 ~~~~~~~~~~~~~~
@@ -181,7 +188,15 @@ Per `official UC Davis policy`_, if you have an accommodation request from the `
 Student Support
 ~~~~~~~~~~~~~~~
 
-As a student, you may experience a range of issues that can cause barriers to learning, such as strained relationships, increased anxiety, alcohol/drug problems, feeling down, difficulty concentrating and/or lack of motivation.
+As a student, you may experience a range of issues that can cause barriers to learning, such as but not limited to:
+
+* strained relationships
+* increased anxiety
+* alcohol/drug problems
+* feeling down
+* difficulty concentrating
+* lack of motivation
+
 These mental health concerns or stressful events may lead to diminished academic performance or reduce a student’s ability to participate in daily activities.
 
 UC Davis is committed to advancing the mental health and well-being of its students.
@@ -204,7 +219,7 @@ Any violations of the `Code of Academic Conduct`_ will result in reporting the v
 As it notes on the `main README`_ for this repository, public forks of this repository with assignment code in them abet cheating.
 Any public forks with code in them will be considered academic misconduct.
 
-The labs will be partner assignments.
+The labs will allow for partners.
 Feel free to share ideas with other groups.
 You may not share code or circuits, however.
 If you're looking at another group's code or circuits, odds are that you've gone past simply sharing ideas.
@@ -243,7 +258,7 @@ I suggest using Campuswire_ to find partners.
 Canvas Quizzes
 ~~~~~~~~~~~~~~
 
-There will be weekly quizzes on Canvas, due Fridays before lecture.
+There will be weekly quizzes on Canvas.
 There are 10 quizzes; an individual quiz is worth 1% of your overall grade.
 For each quiz, you get 5 attempts.
 You can work on these quizzes by yourself or in groups of however many people you want.
