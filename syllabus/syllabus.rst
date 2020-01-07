@@ -3,7 +3,7 @@
 :License: CC BY-NC 4.0
 
 .. _Campuswire: https://campuswire.com/c/G59B70B2E
-.. _Canvas: https://canvas.ucdavis.edu/
+.. _Canvas: https://canvas.ucdavis.edu/courses/424855
 .. _GitHub: https://github.com/jlperona-teaching/ecs154a-winter20/
 .. _Gradescope: https://www.gradescope.com/courses/75747
 .. _schedule: https://github.com/jlperona-teaching/ecs154a-winter20/blob/master/syllabus/schedule.csv
@@ -76,7 +76,7 @@ Unsolicited emails about the course will be ignored.
 Office Hours
 """"""""""""
 
-*Monday, Thursday*: 14:40 - 16:00, 67 Kemper (CSIF)
+*Monday, Thursday*: 14:40 - 16:00, 71 Kemper (CSIF)
 
 There will be no office hours on the first day of class, 2020-01-06.
 Changes to other office hours will be announced on Campuswire_.
@@ -113,7 +113,7 @@ Matthew Farrer
 Minqiang Hu
 """""""""""
 
-**Office Hours**: **7-8pm Friday**
+**Office Hours**: *Friday*, 19:00 - 20:00, 55 Kemper
 
 Oleg Igouchkine
 """""""""""""""
@@ -208,7 +208,7 @@ In addition, you can learn about a variety of other resources for students at UC
 You can also direct message me on Campuswire_ to talk in private.
 
 .. _`Student Health and Counseling Services`: https://shcs.ucdavis.edu/
-.. _`Pages tab of Canvas`: https://canvas.ucdavis.edu/
+.. _`Pages tab of Canvas`: https://canvas.ucdavis.edu/courses/424855/wiki
 
 Academic Misconduct
 ~~~~~~~~~~~~~~~~~~~
@@ -229,7 +229,6 @@ If you're looking at another group's code or circuits, odds are that you've gone
 .. _`Code of Academic Conduct`: https://supportjudicialaffairs.sf.ucdavis.edu/code-academic-conduct
 .. _`Office of Student Support and Judicial Affairs`: https://ossja.ucdavis.edu
 .. _`main README`: https://github.com/jlperona-teaching/ecs154a-winter20/blob/master/README.md
-
 
 Assignments and Tests
 ---------------------
@@ -261,6 +260,8 @@ Canvas Quizzes
 
 There will be weekly quizzes on Canvas.
 There are 10 quizzes; an individual quiz is worth 1% of your overall grade.
+Your lowest quiz score will be dropped.
+
 For each quiz, you get 5 attempts.
 You can work on these quizzes by yourself or in groups of however many people you want.
 
