@@ -15,7 +15,7 @@ Logistics
 Submission
 ~~~~~~~~~~
 
-Due by 20:00 on Monday, 2020-01-21.
+Due by 20:00 on Monday, 2020-01-20.
 
 Turn in for the Logisim portion is on Gradescope.
 Submit the specified .circ files for each problem.
@@ -105,7 +105,7 @@ Once you're finished with a circuit and want to test it manually, you can use th
 For other methods of testing, see the Testing_ section above.
 You can reset the simulation back to the start with Ctrl-R to test again after you make changes.
 
-2. Minterm [5]
+2. Minterm [10]
 ~~~~~~~~~~~~~~~
 
 * Submission file for this part: *lab1problem2.circ*
@@ -118,7 +118,7 @@ You will need to learn how to use a splitter to access the individual bits.
 
 You may not use OR nor NOR gates for this problem.
 
-3. Maxterm [5]
+3. Maxterm [10]
 ~~~~~~~~~~~~~~~
 
 * Submission file for this part: *lab1problem3.circ*
@@ -144,7 +144,7 @@ Derive and implement a minimum sum-of-products expression for the following func
 
 m stands for minterm, and D stands for don't care.
 
-5. Single-digit seven-segment display [30]
+5. Single-digit seven-segment display [35]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Submission file for this part: *lab1problem5.circ*
@@ -160,17 +160,17 @@ Implement the resulting circuits.
     :align: center
 
 ====== ====== ====== ====== = === === === === === === ===
-**i3** **i2** **i1** **i0** - *a* *b* *c* *d* *e* *f* *g*
-0      0      0      0      - 1   1   1   1   1   1   0
-0      0      0      1      - 0   1   1   0   0   0   0
-0      0      1      0      - 1   1   0   1   1   0   1
-0      0      1      1      - 1   1   1   1   0   0   1
-0      1      0      0      - 0   1   1   0   0   1   1
-0      1      0      1      - 1   0   1   1   0   1   1
-0      1      1      0      - 1   0   1   1   1   1   1
-0      1      1      1      - 1   1   1   0   0   0   0
-1      0      0      0      - 1   1   1   1   1   1   1
-1      0      0      1      - 1   1   1   1   0   1   1
+**i3** **i2** **i1** **i0** | *a* *b* *c* *d* *e* *f* *g*
+0      0      0      0      | 1   1   1   1   1   1   0
+0      0      0      1      | 0   1   1   0   0   0   0
+0      0      1      0      | 1   1   0   1   1   0   1
+0      0      1      1      | 1   1   1   1   0   0   1
+0      1      0      0      | 0   1   1   0   0   1   1
+0      1      0      1      | 1   0   1   1   0   1   1
+0      1      1      0      | 1   0   1   1   1   1   1
+0      1      1      1      | 1   1   1   0   0   0   0
+1      0      0      0      | 1   1   1   1   1   1   1
+1      0      0      1      | 1   1   1   1   0   1   1
 ====== ====== ====== ====== = === === === === === === ===
 
 The 3rd and most significant bit of the input *i* corresponds to **i3** on the table.
@@ -180,36 +180,10 @@ We will use this naming system throughout the class.
 Testing this problem is best done manually by attaching the relevant inputs to the *7-Segment Display* module from the Input/Output library of Logisim.
 Feel free to leave it inside your circuit if you want before submission; it won't affect the testing.
 
-6. Triple-digit display [20]
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-* Submission file for this part: *lab1problem6.circ*
-* Main circuit name: *tripledigit*
-* Input pin(s): *thousand* [10]
-* Output pin(s): *hundreds* [7], *tens* [7], *ones* [7]
-
-This problem builds upon the previous one.
-Using your circuits from the previous problem, build a triple-digit display that can display numbers between 0 and 999.
-The input number to display is provided in *thousand*.
-Note that *thousand* is 10 bits and thus has a maximum of 1024; numbers higher than 999 won't be tested so you may ignore them.
-
-The image below shows an example of how the circuit works for an input value of 36.
-
-.. image:: triple-digit-display.png
-    :width: 50%
-    :align: center
-
-For the output pins, concatenate your values for *a*, *b*, *c*, *d*, *e*, *f*, and *g* in that order for each relevant digit.
-Thus, the 6th and most significant bit should be your *a* output for that digit, while the 0th and least significant bit should be your *g* output for that digit.
-
-You may use anything in the Logisim Arithmetic library for this problem.
-Testing this problem is best done manually by attaching relevant inputs to *7-Segment Display* modules from the Input/Output library of Logisim.
-Feel free to leave them inside your circuit if you want before submission; they won't affect the testing.
-
-7. 4-to-1 multiplexor [15]
+6. 4-to-1 multiplexor [20]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* Submission file for this part: *lab1problem7.circ*
+* Submission file for this part: *lab1problem6.circ*
 * Main circuit name: *multiplexor*
 * Input pin(s): *inputzero* [3], *inputone* [3], *inputtwo* [3], *inputthree* [3], *selector* [2]
 * Output pin(s): *muxoutput* [3]
@@ -219,6 +193,32 @@ The *selector* input chooses between which of the four *input* pins to output to
 Hint: the lecture notes show how to make a 4-to-1 multiplexor with one data bit, but you'll need to figure out what to modify to support more data bits.
 
 You may not use MUXes for this problem as it defeats the purpose of the problem.
+
+Extra credit: Triple-digit display [20]
+---------------------------------------
+
+* Submission file for this part: *lab1extracredit.circ*
+* Main circuit name: *tripledigit*
+* Input pin(s): *thousand* [10]
+* Output pin(s): *hundreds* [7], *tens* [7], *ones* [7]
+
+This extra credit problem builds upon problem 5.
+Using your circuits from problem 5, build a triple-digit display that can display numbers between 0 and 999.
+The input number to display is provided in *thousand*.
+Note that *thousand* is 10 bits and thus has a maximum of 1024; numbers higher than 999 won't be tested so you may ignore them.
+
+For the output pins, concatenate your values for *a*, *b*, *c*, *d*, *e*, *f*, and *g* in that order for each relevant digit.
+Thus, the 6th and most significant bit should be your *a* output for that digit, while the 0th and least significant bit should be your *g* output for that digit.
+
+The image below shows an example of how the circuit works for an input value of 36.
+
+.. image:: triple-digit-display.png
+    :width: 50%
+    :align: center
+
+You may use anything in the Logisim Arithmetic library for this problem.
+Testing this problem is best done manually by attaching relevant inputs to *7-Segment Display* modules from the Input/Output library of Logisim.
+Feel free to leave them inside your circuit if you want before submission; they won't affect the testing.
 
 Survey [5]
 ----------
