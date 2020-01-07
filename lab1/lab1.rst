@@ -194,7 +194,7 @@ Hint: the lecture notes show how to make a 4-to-1 multiplexor with one data bit,
 
 You may not use MUXes for this problem as it defeats the purpose of the problem.
 
-Extra credit: Triple-digit display [20]
+Extra credit: Triple-digit display [15]
 ---------------------------------------
 
 * Submission file for this part: *lab1extracredit.circ*
