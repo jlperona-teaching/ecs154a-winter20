@@ -118,7 +118,7 @@ Minqiang Hu
 Oleg Igouchkine
 """""""""""""""
 
-**Office Hours**: **TBA**
+**Office Hours**: *Tuesday*, 9:00 - 10:00, 11:00 - 12:00, 53 Kemper
 
 Websites
 --------
