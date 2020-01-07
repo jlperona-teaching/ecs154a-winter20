@@ -59,9 +59,10 @@ When you submit your .circ files to Gradescope, an autograder will run each of y
 If your output matches the expected output for a given problem, you get full credit, otherwise you get a 0 for that problem.
 You have unlimited submissions; test as many times as you like.
 
-The autograder expects specific file, circuit, and pin names.
+The autograder expects specific file names for each part, as well as main circuit names.
+In addition, the autograder expects specific pin names and that the pins are in certain places.
 We will provide you with base circuits for each problem (see the *base/* subfolder) that are set up correctly.
-**Do not modify the file name, circuit name, or pin names inside Logisim!**
+**Do not modify the file name, circuit name, pin names, or move the pins inside Logisim!**
 If you do, either your circuit will fail to run or it will error out.
 Either way, you'll get a 0.
 
