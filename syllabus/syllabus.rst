@@ -37,13 +37,10 @@ Lecture
 Discussions
 ~~~~~~~~~~~
 
-*A01*: Tuesday, 08:00 - 08:50, 1132 Bainer
-
-*A02*: Tuesday, 12:10 - 13:00, 261 Olson
-
-*A03*: Friday, 14:10 - 15:00, 1132 Bainer
-
-*A04*: Wednesday, 14:10 - 15:00, 147 Olson
+* *A01*: Tuesday, 08:00 - 08:50, 1132 Bainer
+* *A02*: Tuesday, 12:10 - 13:00, 261 Olson
+* *A03*: Friday, 14:10 - 15:00, 1132 Bainer
+* *A04*: Wednesday, 14:10 - 15:00, 147 Olson
 
 There will be discussions during the first week of class.
 
@@ -108,7 +105,7 @@ Unsolicited emails about the course will be ignored.
 Matthew Farrer
 """"""""""""""
 
-**Office Hours**: *Wednesday*, 15:00-16:30, 47 Kemper
+**Office Hours**: *Wednesday*, 15:00 - 16:30, 47 Kemper
 
 Minqiang Hu
 """""""""""
@@ -118,7 +115,7 @@ Minqiang Hu
 Oleg Igouchkine
 """""""""""""""
 
-**Office Hours**: *Tuesday*, 9:00 - 10:00, 11:00 - 12:00, 53 Kemper
+**Office Hours**: *Tuesday*, 09:00 - 10:00, 11:00 - 12:00, 53 Kemper
 
 Websites
 --------
@@ -259,7 +256,7 @@ Canvas Quizzes
 ~~~~~~~~~~~~~~
 
 There will be weekly quizzes on Canvas.
-There are 10 quizzes; an individual quiz is worth 1% of your overall grade.
+There are 10 quizzes; an individual quiz is worth approximately 1% of your overall grade.
 Your lowest quiz score will be dropped.
 
 For each quiz, you get 5 attempts.
