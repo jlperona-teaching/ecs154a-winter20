@@ -108,7 +108,7 @@ Unsolicited emails about the course will be ignored.
 Matthew Farrer
 """"""""""""""
 
-**Office Hours**: **TBA**
+**Office Hours**: *Wednesday*, 15:00-16:30, 47 Kemper
 
 Minqiang Hu
 """""""""""
