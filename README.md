@@ -1,4 +1,4 @@
-[![License: CC BY NC 4.0](https://img.shields.io/badge/License-CC%20BY%20NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY%20NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
 # DO NOT POST CODE TO PUBLIC FORKS OF THIS REPOSITORY
 
@@ -13,8 +13,3 @@ GitHub has instructions on [how to duplicate a repository](https://help.github.c
 
 This is the canonical version of the class materials for ECS 154A in Winter Quarter 2020.
 Credit for the layout of this repository is given to Jason Lowe-Power of UC Davis.
-
-## Building PDFs from reStructuredText (.rst) files
-
-[`rst2pdf`](https://github.com/rst2pdf/rst2pdf) is useful for creating PDFs from .rst files.
-You can install it using `pip`.
