@@ -30,7 +30,7 @@ Logisim Evolution
 
 We will be using v2.15.0 of `Logisim Evolution`_ for the majority of the quarter.
 You can download it here_.
-Earlier versions may look different; **make sure to use the link above to download it!**
+Earlier versions may look different; make sure to use the link above to download it.
 
 Logisim Evolution is distributed via a JAR file.
 JAR files need a Java Runtime Environment (JRE) available to run.
@@ -55,15 +55,6 @@ I'd recommend that you download it and test it out before your first discussion 
 .. _AdoptOpenJDK: https://adoptopenjdk.net/
 .. _`his website`: http://american.cs.ucdavis.edu/academic/ecs154a/postscript/logisim-tutorial.pdf
 
-Testing
-~~~~~~~
-
-**Under construction.**
-
-I am working on another method of testing that you can use to debug your circuit locally without submitting to Gradescope.
-Gradescope can't display your output for your circuit due to the way that the autograder handles *stdout*, which makes debugging difficult.
-When I have finished, I will update this section.
-
 Grading
 ~~~~~~~
 
@@ -72,12 +63,35 @@ If your output matches the expected output for a given problem, you get full cre
 You have unlimited submissions; test as many times as you like.
 
 The autograder expects specific file names for each part, as well as main circuit names.
-In addition, the autograder expects specific pin names and that the pins are in certain places.
+In addition, the autograder expects specific input/output pin names and that the pins are in certain places.
 We will provide you with base circuits for each problem (see the *base/* subfolder) that are set up correctly.
 
 **Do not modify the file name, circuit name, pin names, or move the pins inside Logisim!**
 If you do, your circuit will fail to run, error out, or give the wrong results.
 Either way, you'll get a 0.
+
+Debugging
+~~~~~~~~~
+
+The *Test Vector* feature in Logisim Evolution allows you to test your circuit against the expected output.
+Test vector files with expected output for each problem have been provided for you in the *vector/* subdirectory.
+You can read more about the Test Vector feature and how to use it in the Logisim Evolution User's Guide:
+
+1. Click on *Help* in the top menu.
+2. Click on *User's Guide*.
+3. Under *Guide to Being a Logisim User*, click on *Command-line verification*.
+4. On the page that comes up, click on *Test Vectors* near the top.
+
+If the test vector fails, then your circuit will fail the autograder as well.
+That said, *it's possible to pass every test case in the vector but fail the autograder!*
+If this ends up happening to you, the most likely culprits are:
+
+* you changed the file name of your circuit
+* you changed the name of the circuit
+* you moved the pins
+
+Doing any of these causes your submission to interact differently with the autograder.
+**Again, do not modify the file name, circuit name, pin names, or move the pins inside Logisim!**
 
 Constraints
 ~~~~~~~~~~~
@@ -116,8 +130,8 @@ You can create tunnels for all the inputs (ABCD) and their complements.
 Instead of hooking up the inputs directly to the gates, you can hook up duplicates of the tunnels instead.
 
 Once you're finished with a circuit and want to test it manually, you can use the hand tool and click on the input pins to change their values, which will propagate to the rest of the circuit.
-For other methods of testing, see the Testing_ section above.
 You can reset the simulation back to the start with Ctrl-R to test again after you make changes.
+You can also use the Test Vector feature to automatically test your circuit; see the Testing_ section above.
 
 2. Minterm [10]
 ~~~~~~~~~~~~~~~
