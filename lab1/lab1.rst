@@ -30,17 +30,25 @@ Logisim Evolution
 
 We will be using v2.15.0 of `Logisim Evolution`_ for the majority of the quarter.
 You can download it here_.
+Earlier versions may look different; **make sure to use the link above to download it!**
 
 Logisim Evolution is distributed via a JAR file.
 JAR files need a Java Runtime Environment (JRE) available to run.
-The CSIF has OpenJDK 11 installed already and should work out of the box.
-If you want to run it on your own Linux machine, you should be able to find *openjdk11-jre* or something similar via your package manager.
-On Windows, I suggest OpenJDK 11 LTS from AdoptOpenJDK_.
+Here's recommendations for a JRE for the major operating systems:
+
+* On Linux, you should be able to find *openjdk11-jre* or something similar via your package manager.
+
+  * The CSIF has OpenJDK 11 installed already and should work out of the box.
+  * You'll need to forward X if you want to SSH into CSIF machines and run Logisim Evolution.
+
+* On Windows and OS X, I suggest OpenJDK 11 LTS from AdoptOpenJDK_.
+
+  * One TA has reported that you'll need to adjust your security settings in your options to run the JAR file.
 
 Matthew Farrens has a Logisim introduction available on `his website`_; read sections 2 and 3.
 Note that this was written for the original Logisim, so some things might look a bit different, but the basics should be the same.
 Discussions in the first week will also give a short introduction to Logisim Evolution and how to implement functions.
-I'd recommend that you download it before your first discussion so that you can follow along on the tutorial.
+I'd recommend that you download it and test it out before your first discussion so that you can follow along on the tutorial.
 
 .. _`Logisim Evolution`: https://github.com/reds-heig/logisim-evolution
 .. _here: https://github.com/reds-heig/logisim-evolution/releases/tag/v2.15.0
@@ -52,6 +60,10 @@ Testing
 
 **Under construction.**
 
+I am working on another method of testing that you can use to debug your circuit locally without submitting to Gradescope.
+Gradescope can't display your output for your circuit due to the way that the autograder handles *stdout*, which makes debugging difficult.
+When I have finished, I will update this section.
+
 Grading
 ~~~~~~~
 
@@ -62,8 +74,9 @@ You have unlimited submissions; test as many times as you like.
 The autograder expects specific file names for each part, as well as main circuit names.
 In addition, the autograder expects specific pin names and that the pins are in certain places.
 We will provide you with base circuits for each problem (see the *base/* subfolder) that are set up correctly.
+
 **Do not modify the file name, circuit name, pin names, or move the pins inside Logisim!**
-If you do, either your circuit will fail to run or it will error out.
+If you do, your circuit will fail to run, error out, or give the wrong results.
 Either way, you'll get a 0.
 
 Constraints
@@ -79,7 +92,7 @@ Logisim Problems [95]
 1. Quick introduction to Logisim [10]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* Submission file for this part: *lab1problem1.circ*
+* Submission file for this part: *1.circ*
 * Main circuit name: *introduction*
 * Input pin(s): *A* [1], *B* [1], *C* [1], *D* [1]
 * Output pin(s): *f* [1], *g* [1]
@@ -109,7 +122,7 @@ You can reset the simulation back to the start with Ctrl-R to test again after y
 2. Minterm [10]
 ~~~~~~~~~~~~~~~
 
-* Submission file for this part: *lab1problem2.circ*
+* Submission file for this part: *2.circ*
 * Main circuit name: *minterm*
 * Input pin(s): *fourbitinput* [4]
 * Output pin(s): *h* [1]
@@ -122,7 +135,7 @@ You may not use OR nor NOR gates for this problem.
 3. Maxterm [10]
 ~~~~~~~~~~~~~~~
 
-* Submission file for this part: *lab1problem3.circ*
+* Submission file for this part: *3.circ*
 * Main circuit name: *maxterm*
 * Input pin(s): *fourbitinput* [4]
 * Output pin(s): *j* [1]
@@ -134,21 +147,21 @@ You may not use AND nor NAND gates for this problem.
 4. Karnaugh map [10]
 ~~~~~~~~~~~~~~~~~~~~
 
-* Submission file for this part: *lab1problem4.circ*
+* Submission file for this part: *4.circ*
 * Main circuit name: *karnaugh*
 * Input pin(s): *fourbitinput* [4]
 * Output pin(s): *k* [1]
 
 Derive and implement a minimum sum-of-products expression for the following function:
 
-    k(fourbitinput) = m0 + D2 + m4 + m6 + D7 + D8 + m10 + m13 + m14
+    k(fourbitinput) = m0 + m2 + m4 + m6 + m8 + m10 + m13 + m14
 
-m stands for minterm, and D stands for don't care.
+m stands for minterm.
 
 5. Single-digit seven-segment display [35]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* Submission file for this part: *lab1problem5.circ*
+* Submission file for this part: *5.circ*
 * Main circuit name: *singledigit*
 * Input pin(s): *i* [4]
 * Output pin(s): *a* [1], *b* [1], *c* [1], *d* [1], *e* [1], *f* [1], *g* [1]
@@ -184,7 +197,7 @@ Feel free to leave it inside your circuit if you want before submission; it won'
 6. 4-to-1 multiplexor [20]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* Submission file for this part: *lab1problem6.circ*
+* Submission file for this part: *6.circ*
 * Main circuit name: *multiplexor*
 * Input pin(s): *inputzero* [3], *inputone* [3], *inputtwo* [3], *inputthree* [3], *selector* [2]
 * Output pin(s): *muxoutput* [3]
@@ -198,7 +211,7 @@ You may not use MUXes for this problem as it defeats the purpose of the problem.
 Extra credit: Triple-digit display [15]
 ---------------------------------------
 
-* Submission file for this part: *lab1extracredit.circ*
+* Submission file for this part: *extracredit.circ*
 * Main circuit name: *tripledigit*
 * Input pin(s): *thousand* [10]
 * Output pin(s): *hundreds* [7], *tens* [7], *ones* [7]
