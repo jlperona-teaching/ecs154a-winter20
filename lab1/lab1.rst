@@ -222,6 +222,19 @@ Hint: the lecture notes show how to make a 4-to-1 multiplexor with one data bit,
 
 You may not use MUXes for this problem as it defeats the purpose of the problem.
 
+Survey [5]
+----------
+
+For every lab, there will be an associated post-lab survey worth 5% of the grade.
+This survey is going to ask you about how you felt about the assignment and how much time you spent on it.
+Everybody needs to submit a survey response individually.
+
+You can find the surveys on Canvas_; they'll typically be released closer to the due date for the lab.
+There's no late penalty on the survey portions.
+As long as you submit by the late submission deadline, you'll get full credit.
+
+.. _Canvas: https://canvas.ucdavis.edu
+
 Extra credit: Triple-digit display [15]
 ---------------------------------------
 
@@ -247,16 +260,3 @@ The image below shows an example of how the circuit works for an input value of 
 You may use anything in the Logisim Arithmetic library for this problem.
 Testing this problem is best done manually by attaching relevant inputs to *7-Segment Display* modules from the Input/Output library of Logisim.
 Feel free to leave them inside your circuit if you want before submission; they won't affect the testing.
-
-Survey [5]
-----------
-
-For every lab, there will be an associated survey worth 5% of the grade.
-This survey is going to ask you about how you felt about the assignment and how much time you spent on it.
-Everybody needs to submit a survey response individually.
-
-You can find the survey on Canvas_.
-There's no late penalty on the survey portion.
-As long as you submit by the late submission deadline, you'll get full credit.
-
-.. _Canvas: https://canvas.ucdavis.edu
