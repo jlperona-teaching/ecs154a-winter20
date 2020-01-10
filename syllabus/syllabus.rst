@@ -73,7 +73,7 @@ Unsolicited emails about the course will be ignored.
 Office Hours
 """"""""""""
 
-*Monday, Thursday*: 14:40 - 16:00, 71 Kemper (CSIF)
+*Monday, Thursday*: 15:10 - 16:00, 71 Kemper (CSIF)
 
 There will be no office hours on the first day of class, 2020-01-06.
 Changes to other office hours will be announced on Campuswire_.
