@@ -1,12 +1,13 @@
 Day,Date,Lecture Number,Class Type,Milestone,Topics Covered,Reading (Stallings),Reading (Mealy)
-Monday,2020-01-06,1,Lecture,,"Introduction, motivation","1.1, 1.2, 1.3/2.1 (10e/9e)",
-Wednesday,2020-01-08,2,Lecture,,"Basic definitions, analog vs. digital, Boolean algebra, equivalence laws",11.1 - 11.2,5.1 - 5.2.2
-Friday,2020-01-10,3,Lecture,,"Gates, truth tables",11.2 - 11.3,"5.2.3, 6, 8, 9.1 - 9.2.2"
-Monday,2020-01-13,4,Lecture,,"Karnaugh maps, minimization",11.3,9.2.3 - 9.2.4
-Wednesday,2020-01-15,5,Lecture,,"Timing, combinational circuit building blocks",11.3,"7.1 - 7.4, 20"
-Friday,2020-01-17,6,Lecture,,Combinational circuit building blocks,11.3,"11.1 - 11.3, 19"
-Wednesday,2020-01-22,8,Lecture,,"Arithmetic logic, parity","5.2, 10.2",11.4 - 11.5
-Friday,2020-01-24,9,Lecture,,Error correction,5.2,
+Monday,2020-01-06,01,Lecture,,"Introduction, motivation","1.1, 1.2, 1.3/2.1 (10e/9e)",
+Wednesday,2020-01-08,02,Lecture,,"Basic definitions, analog vs. digital, Boolean algebra, equivalence laws",11.1 - 11.2,5.1 - 5.2.2
+Friday,2020-01-10,03,Lecture,,"Logical equivalence, gates, truth tables",11.2 - 11.3,"5.2.3, 6, 8, 9.1 - 9.2.2"
+Monday,2020-01-13,04,Lecture,,"Karnaugh maps, minimization",11.3,9.2.3 - 9.2.4
+Wednesday,2020-01-15,05,Lecture,,"Timing, combinational circuit building blocks",11.3,"7.1 - 7.4, 20"
+Friday,2020-01-17,06,Lecture,,Combinational circuit building blocks,11.3,"11.1 - 11.3, 19"
+Monday,2020-01-20,07,Holiday,LAB 1,,,
+Wednesday,2020-01-22,08,Lecture,,"Arithmetic logic, parity","5.2, 10.2",11.4 - 11.5
+Friday,2020-01-24,09,Lecture,,Error correction,5.2,
 Monday,2020-01-27,10,Lecture,,"Sequential circuits, latches, flip flops",11.4,25.1 - 25.2
 Wednesday,2020-01-29,11,Lecture,,"Flip flop timing, registers, counters",11.4,
 Friday,2020-01-31,12,Lecture,,"Finite state machine introduction, Moore model FSM basics",,"26.1 - 26.5, 27.1 - 27.2"
