@@ -226,12 +226,14 @@ Survey [5]
 ----------
 
 For every lab, there will be an associated post-lab survey worth 5% of the grade.
+Surveys are graded on completion; your answers do not affect your grade.
 This survey is going to ask you about how you felt about the assignment and how much time you spent on it.
 Everybody needs to submit a survey response individually.
 
-You can find the `survey for this lab`_ on Canvas.
 There's no late penalty on the survey portion.
 As long as you submit by the late submission deadline, you'll get full credit.
+
+You can find the `survey for this lab`_ on Canvas.
 
 .. _`survey for this lab`: https://canvas.ucdavis.edu/courses/424855/quizzes/54371
 
