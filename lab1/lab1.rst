@@ -131,7 +131,7 @@ Instead of hooking up the inputs directly to the gates, you can hook up duplicat
 
 Once you're finished with a circuit and want to test it manually, you can use the hand tool and click on the input pins to change their values, which will propagate to the rest of the circuit.
 You can reset the simulation back to the start with Ctrl-R to test again after you make changes.
-You can also use the Test Vector feature to automatically test your circuit; see the Testing_ section above.
+You can also use the Test Vector feature to automatically test your circuit; see the Debugging_ section above.
 
 2. Minterm [10]
 ~~~~~~~~~~~~~~~
