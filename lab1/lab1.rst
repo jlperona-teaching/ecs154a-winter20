@@ -229,11 +229,11 @@ For every lab, there will be an associated post-lab survey worth 5% of the grade
 This survey is going to ask you about how you felt about the assignment and how much time you spent on it.
 Everybody needs to submit a survey response individually.
 
-You can find the surveys on Canvas_; they'll typically be released closer to the due date for the lab.
-There's no late penalty on the survey portions.
+You can find the `survey for this lab`_ on Canvas.
+There's no late penalty on the survey portion.
 As long as you submit by the late submission deadline, you'll get full credit.
 
-.. _Canvas: https://canvas.ucdavis.edu
+.. _`survey for this lab`: https://canvas.ucdavis.edu/courses/424855/quizzes/54371
 
 Extra credit: Triple-digit display [15]
 ---------------------------------------
