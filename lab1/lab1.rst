@@ -65,10 +65,17 @@ You have unlimited submissions; test as many times as you like.
 The autograder expects specific file names for each part, as well as main circuit names.
 In addition, the autograder expects specific input/output pin names and that the pins are in certain places.
 We will provide you with base circuits for each problem (see the *base/* subfolder) that are set up correctly.
+**Don't do any of the following things:**
 
-**Do not modify the file name, circuit name, pin names, or move the pins inside Logisim!**
-If you do, your circuit will fail to run, error out, or give the wrong results.
-Either way, you'll get a 0.
+* modify the file name
+* modify the base circuit name
+* modify the names of the pins already there
+* move any of the pins already there
+* delete any of the pins already there
+* add extra pins
+
+If you do, your circuit might fail to run, error out, or give the wrong results.
+If it does, you'll get a 0.
 
 Debugging
 ~~~~~~~~~
@@ -84,14 +91,8 @@ You can read more about the Test Vector feature and how to use it in the Logisim
 
 If the test vector fails, then your circuit will fail the autograder as well.
 That said, *it's possible to pass every test case in the vector but fail the autograder!*
-If this ends up happening to you, the most likely culprits are:
-
-* you changed the file name of your circuit
-* you changed the name of the circuit
-* you moved the pins
-
-Doing any of these causes your submission to interact differently with the autograder.
-**Again, do not modify the file name, circuit name, pin names, or move the pins inside Logisim!**
+If this ends up happening to you, the most likely culprits are anything listed above in the Grading_ section.
+Doing any of these causes your submission to interact differently with the autograder's grading mechanism.
 
 Constraints
 ~~~~~~~~~~~
