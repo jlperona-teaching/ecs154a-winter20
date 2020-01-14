@@ -173,6 +173,9 @@ Derive and implement a minimum sum-of-products expression for the following func
 
 m stands for minterm.
 
+Note your SOP expression must be minimal and utilize don't cares, if any.
+If it is not, and you brute-force the problem, you will lose points.
+
 5. Single-digit seven-segment display [35]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -205,6 +208,9 @@ Implement the resulting circuits.
 The 3rd and most significant bit of the input *i* corresponds to **i3** on the table.
 Similarly, the 0th and least significant bit of the input *i* corresponds to **i0** on the table.
 We will use this naming system throughout the class.
+
+Note your SOP expression must be minimal and utilize don't cares, if any.
+If it is not, and you brute-force the problem, you will lose points.
 
 Testing this problem is best done manually by attaching the relevant inputs to the *7-Segment Display* module from the Input/Output library of Logisim.
 Feel free to leave it inside your circuit if you want before submission; it won't affect the testing.
