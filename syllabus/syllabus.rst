@@ -38,7 +38,7 @@ Discussions
 ~~~~~~~~~~~
 
 * *A01*: Tuesday, 08:00 - 08:50, 1132 Bainer
-* *A02*: Tuesday, 12:10 - 13:00, 261 Olson
+* *A02*: Tuesday, 12:10 - 13:00, 130 Physics
 * *A03*: Friday, 14:10 - 15:00, 1132 Bainer
 * *A04*: Wednesday, 14:10 - 15:00, 147 Olson
 
