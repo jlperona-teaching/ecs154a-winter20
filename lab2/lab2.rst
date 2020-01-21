@@ -62,7 +62,7 @@ Implement the following function using a MUX:
     f(A, B, C, D) = m0 + m1 + m3 + m5 + m9 + m11 + m12
 
 You may not use gates for this problem.
-You may only use a MUX, splitters, constants, power, and ground.
+You may only use MUXes, splitters, constants, power, and ground.
 
 2. Decoder function implementation [5]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -76,8 +76,8 @@ Implement the following function using a one-hot decoder:
 
     f(A, B, C, D) = m1 + m2 + m5 + m8 + m13 + m14 + m15
 
-The only type of basic gate you may use for this problem is an OR gate.
-Apart from the OR gate, you may only use a decoder, splitters, constants, power, and ground.
+The only type of basic gate you may use for this problem is OR gates.
+Apart from the OR gate, you may only use decoders, splitters, constants, power, and ground.
 
 3. Bit counting [5]
 ~~~~~~~~~~~~~~~~~~~
@@ -104,7 +104,7 @@ Implement an 8-bit comparator.
 
 While already specified above, you may not use anything from the Arithmetic library for this problem.
 This defeats the purpose of the problem.
-You must implement your comparator using gates.
+You must implement your comparator within the constraints specified for this lab.
 
 5. Parity checker [5]
 ~~~~~~~~~~~~~~~~~~~~~
@@ -197,7 +197,8 @@ To save time and make debugging easier, I *highly recommend* giving descriptive 
 This will make the process of calculating the check bits much easier to visualize.
 
 Upon receiving the input, you will need to recalculate the check bits, and use those to determine which bit has been flipped, if any.
-Errors will only be of size 1, if there are any at all. You do not need to worry about undetectable errors.
+Errors will only be of size 1, if there are any at all.
+You do not need to worry about undetectable errors.
 Hint: you will want to use a decoder to correctly route to the bit you want to invert, if any.
 
 Survey [5]
