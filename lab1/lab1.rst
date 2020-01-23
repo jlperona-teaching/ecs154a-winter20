@@ -30,7 +30,8 @@ Logisim Evolution
 
 We will be using v2.15.0 of `Logisim Evolution`_ for the majority of the quarter.
 You can download it here_.
-Earlier versions may look different; make sure to use the link above to download it.
+**You must use v2.15.0 for the autograder to run correctly!**
+Save yourself some frustration and download it from the link above; don't download it anywhere else.
 
 Logisim Evolution is distributed via a JAR file.
 JAR files need a Java Runtime Environment (JRE) available to run.
