@@ -188,7 +188,7 @@ You will also lose points if you are using a ripple-carry adder; see above for m
 * Input pin(s): *inputdata* [15]
 * Output pin(s): *correcteddata* [11]
 
-Implement an 11-bit variant of the error-correcting circuit that we discussed in class.
+Implement an 11-bit variant of the Hamming(7,4) error correction method that we discussed in class.
 We will have 11 data bits, and 4 check bits to cover said data bits.
 You will need to determine the position of the data and check bits, as well as which check bits cover which data bits.
 The lecture notes on error correction will be helpful in laying out the circuit.
@@ -199,7 +199,7 @@ This will make the process of calculating the check bits much easier to visualiz
 
 Upon receiving the input, you will need to recalculate the check bits, and use those to determine which bit has been flipped, if any.
 Errors will only be of size 1, if there are any at all.
-You do not need to worry about undetectable errors.
+You do not need to worry about errors of size 2 or greater.
 
 Survey [5]
 ----------
