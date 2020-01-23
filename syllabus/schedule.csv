@@ -6,24 +6,24 @@ Monday,2020-01-13,04,Lecture,,"Karnaugh maps, minimization",11.3,9.2.3 - 9.2.4
 Wednesday,2020-01-15,05,Lecture,,"Timing, combinational circuit building blocks",11.3,"7.1 - 7.4, 20"
 Friday,2020-01-17,06,Lecture,,Combinational circuit building blocks,11.3,"11.1 - 11.3, 19"
 Monday,2020-01-20,07,Holiday,LAB 1,,,
-Wednesday,2020-01-22,08,Lecture,,"Arithmetic logic, parity","5.2, 10.2",11.4 - 11.5
-Friday,2020-01-24,09,Lecture,,Error correction,5.2,
-Monday,2020-01-27,10,Lecture,,"Sequential circuits, latches, flip flops",11.4,25.1 - 25.2
-Wednesday,2020-01-29,11,Lecture,,"Flip flop timing, registers, counters",11.4,
-Friday,2020-01-31,12,Lecture,,"Finite state machine introduction, Moore model FSM basics",,"26.1 - 26.5, 27.1 - 27.2"
-Monday,2020-02-03,13,Lecture,,Moore model FSM minimization,,27.1 - 27.2
-Wednesday,2020-02-05,14,Lecture,,Mealy model FSM basics,,29.1 - 29.4
-Friday,2020-02-07,15,Lecture,,Mealy model FSM minimization,,29.1 - 29.4
-Monday,2020-02-10,16,Lecture,,More complicated FSMs,,29.1 - 29.4
-Wednesday,2020-02-12,17,Lecture,,Slack/review for midterm,,
+Wednesday,2020-01-22,08,Lecture,,Arithmetic logic,10.2,11.4 - 11.5
+Friday,2020-01-24,09,Lecture,,"Parity, error correction",5.2,
+Monday,2020-01-27,10,Lecture,,Error correction,5.2,
+Wednesday,2020-01-29,11,Lecture,,"Sequential circuits, latches, flip flops",11.4,25.1 - 25.2
+Friday,2020-01-31,12,Lecture,,"Flip flop timing, registers, counters",11.4,
+Monday,2020-02-03,13,Lecture,LAB 2,"Finite state machine introduction, Moore model FSM basics",,"26.1 - 26.5, 27.1 - 27.2"
+Wednesday,2020-02-05,14,Lecture,,Moore model FSM minimization,,27.1 - 27.2
+Friday,2020-02-07,15,Lecture,,Mealy model FSM basics,,29.1 - 29.4
+Monday,2020-02-10,16,Lecture,,Mealy model FSM minimization,,29.1 - 29.4
+Wednesday,2020-02-12,17,Lecture,,More complicated FSMs,,29.1 - 29.4
 Friday,2020-02-14,18,Midterm,MIDTERM,,,
-Monday,2020-02-17,19,Holiday,,,,
+Monday,2020-02-17,19,Holiday,LAB 3,,,
 Wednesday,2020-02-19,20,Lecture,,"Von Neumann architecture, single bus machine",3.1 - 3.3,
 Friday,2020-02-21,21,Lecture,,"Multiple bus machines, RISC versus CISC",15.4,
 Monday,2020-02-24,22,Lecture,,Buses,3.4,
 Wednesday,2020-02-26,23,Lecture,,Interrupts,3.2,
 Friday,2020-02-28,24,Lecture,,"Memory, memory hierarchy",4.1,
-Monday,2020-03-02,25,Lecture,,"Cache basics, addressing",4.2 - 4.3,
+Monday,2020-03-02,25,Lecture,LAB 4,"Cache basics, addressing",4.2 - 4.3,
 Wednesday,2020-03-04,26,Lecture,,"Cache layout types, replacement and write policies",4.2 - 4.3,
 Friday,2020-03-06,27,Lecture,,Operating systems,8.1,
 Monday,2020-03-09,28,Lecture,,"Memory management, virtual vs. physical addresses",8.3,
