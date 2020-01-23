@@ -76,8 +76,8 @@ Implement the following function using a one-hot decoder:
 
     f(A, B, C, D) = m1 + m2 + m5 + m8 + m13 + m14 + m15
 
-The only type of basic gate you may use for this problem is OR gates.
-Apart from the OR gate, you may only use decoders, splitters, constants, power, and ground.
+The only type of basic gate you may use for this problem is the OR gate.
+Apart from OR gates, you may only use decoders, splitters, constants, power, and ground.
 
 3. Bit counting [5]
 ~~~~~~~~~~~~~~~~~~~
@@ -158,10 +158,10 @@ Given the following input as the *operation* line, each bit cell of the ALU shou
 * 000 = AND
 * 001 = NOT B
 * 010 = OR
-* 011 = SUB
+* 011 = SUB (A - B)
 * 100 = XOR
 * 101 = NOT A
-* 110 = ADD
+* 110 = ADD (A + B)
 * 111 = (reserved for future use)
 
 All arithmetic operations will be on 2's complement numbers.
@@ -177,7 +177,7 @@ I also recommend using probes for this part for the inputs, the various operatio
 This will make your debugging much easier.
 
 While already specified above, you may not use anything from the Arithmetic library for this problem.
-You will get a 0 if you use a subtractor or an adder; create that logic using gates.
+You will get a 0 if you use the built-in adder or subtractor; create the logic for those operations using gates.
 You will also lose points if you are using a ripple-carry adder; see above for more details.
 
 8. Error correcting [30]
@@ -192,6 +192,7 @@ Implement an 11-bit variant of the error-correcting circuit that we discussed in
 We will have 11 data bits, and 4 check bits to cover said data bits.
 You will need to determine the position of the data and check bits, as well as which check bits cover which data bits.
 The lecture notes on error correction will be helpful in laying out the circuit.
+Hint: you will want to use a decoder to correctly route to the bit you want to invert, if any.
 
 To save time and make debugging easier, I *highly recommend* giving descriptive tunnel names to each of the individual bits of *inputdata* once you have determined which bit is which.
 This will make the process of calculating the check bits much easier to visualize.
@@ -199,7 +200,6 @@ This will make the process of calculating the check bits much easier to visualiz
 Upon receiving the input, you will need to recalculate the check bits, and use those to determine which bit has been flipped, if any.
 Errors will only be of size 1, if there are any at all.
 You do not need to worry about undetectable errors.
-Hint: you will want to use a decoder to correctly route to the bit you want to invert, if any.
 
 Survey [5]
 ----------
