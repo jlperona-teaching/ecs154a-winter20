@@ -8,8 +8,8 @@ Friday,2020-01-17,06,Lecture,,Combinational circuit building blocks,11.3,"11.1 -
 Monday,2020-01-20,07,Holiday,LAB 1,,,
 Wednesday,2020-01-22,08,Lecture,,Arithmetic logic,10.2,11.4 - 11.5
 Friday,2020-01-24,09,Lecture,,"Parity, error correction",5.2,
-Monday,2020-01-27,10,Lecture,,Error correction,5.2,
-Wednesday,2020-01-29,11,Lecture,,"Sequential circuits, latches, flip flops",11.4,25.1 - 25.2
+Monday,2020-01-27,10,Lecture,,"Error correction, sequential circuits, latches","5.2, 11.4",
+Wednesday,2020-01-29,11,Lecture,,Flip flops,11.4,25.1 - 25.2
 Friday,2020-01-31,12,Lecture,,"Flip flop timing, registers, counters",11.4,
 Monday,2020-02-03,13,Lecture,LAB 2,"Finite state machine introduction, Moore model FSM basics",,"26.1 - 26.5, 27.1 - 27.2"
 Wednesday,2020-02-05,14,Lecture,,Moore model FSM minimization,,27.1 - 27.2
