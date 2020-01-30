@@ -17,7 +17,7 @@ Submission
 
 Due by 20:00 on Monday, 2020-01-20.
 
-Turn in for the Logisim portion is on Gradescope.
+Turn in for the Logisim Evolution portion is on Gradescope.
 Submit the specified .circ files for each problem.
 The person submitting should specify their partner's name (if necessary) during the submission process.
 
@@ -46,8 +46,8 @@ Here's recommendations for a JRE for the major operating systems:
 
   * One TA has reported that you'll need to adjust your security settings in your options to run the JAR file.
 
-Matthew Farrens has a Logisim introduction available on `his website`_; read sections 2 and 3.
-Note that this was written for the original Logisim, so some things might look a bit different, but the basics should be the same.
+Matthew Farrens has an introduction written for the original Logisim available on `his website`_; read sections 2 and 3.
+Note that since this was written for the original Logisim, some things might look a bit different, but the basics should be the same.
 Discussions in the first week will also give a short introduction to Logisim Evolution and how to implement functions.
 I'd recommend that you download it and test it out before your first discussion so that you can follow along on the tutorial.
 
@@ -98,15 +98,15 @@ Doing any of these causes your submission to interact differently with the autog
 Constraints
 ~~~~~~~~~~~
 
-For these problems, you must use designs relying on only basic gates (NOT, AND, OR, NAND, NOR, XOR, XNOR) and the Logisim wiring library, unless specified otherwise.
+For these problems, you must use designs relying on only basic gates (NOT, AND, OR, NAND, NOR, XOR, XNOR) and the Logisim Evolution wiring library, unless specified otherwise.
 Violating specified constraints will result in a 0 on the problem in question.
 While the autograder may give you credit even if you violate a constraint, we will check submissions after the due date and update grades appropriately.
 
-Logisim Problems [95]
----------------------
+Logisim Evolution Problems [95]
+-------------------------------
 
-1. Quick introduction to Logisim [10]
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. Quick introduction to Logisim Evolution [10]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Submission file for this part: *1.circ*
 * Main circuit name: *introduction*
@@ -213,7 +213,7 @@ We will use this naming system throughout the class.
 Note your SOP expression must be minimal and utilize don't cares, if any.
 If it is not, and you brute-force the problem, you will lose points.
 
-Testing this problem is best done manually by attaching the relevant inputs to the *7-Segment Display* module from the Input/Output library of Logisim.
+Testing this problem is best done manually by attaching the relevant inputs to the *7-Segment Display* module from the Input/Output library of Logisim Evolution.
 Feel free to leave it inside your circuit if you want before submission; it won't affect the testing.
 
 6. 4-to-1 multiplexor [20]
@@ -267,6 +267,6 @@ The image below shows an example of how the circuit works for an input value of 
     :width: 50%
     :align: center
 
-You may use anything in the Logisim Arithmetic library for this problem.
-Testing this problem is best done manually by attaching relevant inputs to *7-Segment Display* modules from the Input/Output library of Logisim.
+You may use anything in the Logisim Evolution Arithmetic library for this problem.
+Testing this problem is best done manually by attaching relevant inputs to *7-Segment Display* modules from the Input/Output library of Logisim Evolution.
 Feel free to leave them inside your circuit if you want before submission; they won't affect the testing.

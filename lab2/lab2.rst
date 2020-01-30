@@ -17,7 +17,7 @@ Submission
 
 Due by 20:00 on Monday, 2020-02-03.
 
-Turn in for the Logisim portion is on Gradescope.
+Turn in for the Logisim Evolution portion is on Gradescope.
 Submit the specified .circ files for each problem.
 The person submitting should specify their partner's name (if necessary) during the submission process.
 
@@ -41,13 +41,13 @@ For these problems, you must use designs relying on only the following, unless s
 * basic gates (NOT, AND, OR, NAND, NOR, XOR, XNOR)
 * MUXes
 * decoders
-* the Logisim wiring library
+* the Logisim Evolution wiring library
 
 Violating specified constraints will result in a 0 on the problem in question.
 While the autograder may give you credit even if you violate a constraint, we will check submissions after the due date and update grades appropriately.
 
-Logisim Problems [95]
----------------------
+Logisim Evolution Problems [95]
+-------------------------------
 
 1. MUX function implementation [5]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -90,7 +90,7 @@ Apart from OR gates, you may only use decoders, splitters, constants, power, and
 Suppose we want to determine how many of the bits in a twelve-bit unsigned number are equal to zero.
 Implement the simplest circuit that can accomplish this task.
 
-You may use any Logisim component for this problem.
+You may use any Logisim Evolution component for this problem.
 
 4. Comparator implementation [5]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
