@@ -69,6 +69,7 @@ To load a circuit, follow the steps below:
 #. In the side bar of Logisim Evolution with all the libraries, scroll down to the bottom.
 #. Open the folder with your circuit name (*1*, *2*, so on), and click on the name of the subcircuit for that problem that shows up.
 #. Place the subcircuit inside the tester circuit where it says "Place your subcircuit here," making sure the wires align.
+
    * You should not have to edit anything inside the tester circuit for it to work.
    * If all the pins don't align or there is a wire mismatch, you moved, added, removed, or otherwise changed a pin inside your submission circuit.
 
@@ -76,7 +77,9 @@ If you make edits to your submission circuit and want to retest it, you should u
 To unload your circuit, follow the steps below:
 
 #. Delete your subcircuit that you placed inside the tester circuit.
+
    * Logisim Evolution won't let you unload your circuit if a subcircuit is still inside the tester circuit.
+
 #. Right-click the containing folder that you opened earlier to place the subcircuit.
 #. Select *Unload Circuit* to unload it.
 
@@ -113,6 +116,10 @@ Input values will always be to the left of output values.
 Values with more than 4 bits will have a space in between every 4 bits, while columns will have tabs between them.
 As an example, the first eight bits above correspond to *eightbitinput*, then the next bit is for *sysclock*, and finally the last eight bits correspond to *registerval*.
 
+The nice thing about TSV files is that you can open them in a spreadsheet editor like Excel.
+If you make a copy of it, you can then add the signal names or any other metadata you want.
+This might make it easier for you to debug, but make sure not to modify the original TSV file.
+
 Generating Your Own Output Files
 """"""""""""""""""""""""""""""""
 
@@ -133,7 +140,7 @@ These commands do the following:
 * pipe ``stdout`` to your specified file
 * ``diff`` that file with the correct output for that problem
 
-If you're familiar with bash scripting, you can turn the above into a bash script to save some time.
+If you're familiar with bash scripting, you can turn the above into a script to save some time.
 Using command line arguments for that script could let you reuse the script between circuits.
 
 Checking for Correctness
@@ -381,6 +388,6 @@ Extra Credit [?]
 ----------------
 
 I'm still debating on a good extra credit problem.
-The original one I thought of became the extra credit problem for lab 4, so you'll have that to look forward to.
+The original one I thought of involving beer became the extra credit problem for lab 4, so you'll have that to look forward to.
 
 If I do end up making one, I'll make an announcement on Campuswire when it's active.
