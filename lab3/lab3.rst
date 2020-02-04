@@ -158,9 +158,26 @@ The commands would look like the following:
 Assuming you haven't moved anything in the tester circuit, when you generate your output, only the columns for output pins should have any differences.
 You can use the output ``diff`` generates to determine where your circuit is going wrong.
 
+Note that the TSV files have Unix (LF) line endings.
+If you are running Windows, you'll need to be careful about this, as evidenced by one post on Campuswire already.
+Windows (CRLF) line endings will cause ``diff`` to fail as the output does not match exactly.
+It will look like there's an error on every single line when there really isn't.
+`This StackOverflow post`_ contains more information about it in case you're curious.
+
+The autograder doesn't have line ending problems, as your output is generated and then checked with ``diff`` in a purely Unix environment.
+If it doesn't pass the autograder, then there's another issue going on.
+If your circuit passes the autograder but is "incorrect" on every single line when you use ``diff``, then it's a line ending problem.
+If you're running on Windows and are experiencing this issue, you have a couple of options:
+
+* clone the repository using GitHub Desktop or another Git client that will properly handle line endings on Windows for you
+* use a utility or a text editor like Sublime Text or Atom to convert the TSV files to CRLF line endings
+* copy the contents of the TSV file and paste into Notepad/other text editor to resave it with CRLF line endings
+
 If ``diff`` reports no changes, then congratulations!
 Your implementation is correct and you should get full credit when you submit to Gradescope.
 Make sure to submit the circuit files you've been working on and not the tester circuits; the autograder will ignore those.
+
+.. _`This StackOverflow post`: https://stackoverflow.com/a/1552770
 
 Constraints
 ~~~~~~~~~~~
@@ -192,11 +209,11 @@ I highly recommend starting this problem early.
 The intent of this problem is to introduce the testing mechanisms for sequential circuits and making sure you understand those well.
 See the `Debugging Sequential Circuits`_ section above for more information on those.
 
-Hook up two D flip flops in sequence.
+Hook up two D flip flops in sequence; this is equivalent to a two-bit shift register.
 The input into the first flip flop is *q*.
 The output of the first flip flop and input into the second flip flop becomes *q1ago*, the value of *q* one clock cycle ago.
 The output of the second flip flop becomes *q2ago*, the value of *q* two clock cycles ago.
-This chaining will be reflected in your output file from the tester, assuming you've done it correctly.
+This chaining/shifting will be reflected in your output file from the tester, assuming you've done it correctly.
 
 Note that we provide a *sysclock* input to hook up to the Clock pins of your flip flops.
 This is required so that the tester circuit and your circuit run in lockstep.
