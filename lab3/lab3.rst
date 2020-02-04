@@ -288,6 +288,7 @@ There is no limit on the number of those gates you may use.
 Derive a circuit that realizes the FSM defined by the state table below.
 Create the state transition table from the table, then use K-maps to simplify the final expressions for the next states and outputs.
 You do not need to minimize the FSM.
+Implement the resulting circuit in Logisim Evolution.
 
 +---------------+-------------------+--------+
 |               | Next State        |        |
@@ -320,7 +321,7 @@ Note that this constraint means that it is most efficient to use D flip flops.
 * Input pin(s): *inputv* [1], *sysclock* [1]
 * Output pin(s): *outputp* [1]
 
-Implement the following Moore model FSM as a circuit.
+Implement the following Moore model FSM as a circuit in Logisim Evolution.
 Create the state transition table from the diagram with *inputv* as the input into the FSM.
 Use K-maps to simplify the final expressions for the next states and output *outputp*.
 You do not need to minimize the FSM.
@@ -379,6 +380,9 @@ The FSM will output *outputr = 1* when it detects that the previous 4 bit sequen
 At all other times, including when the previous sequence was not those described previously, *outputr = 0*.
 Implement the FSM as a circuit in Logisim Evolution.
 
+Note that much like the last problem, this is not a sliding window.
+After the fourth clock pulse, the circuit resets itself and is ready to take in the next 4 bit sequence.
+
 You may use a maximum of 3 flip flops for this problem.
 If you need to use more than 3 flip flops, your FSM is not minimized.
 You will lose a significant portion of credit if you have more than 3 flip flops in your circuit.
@@ -396,9 +400,11 @@ If you violate both this and the previous constraint, you will get a 0.
 * Output pin(s): *outputcoke* [1], *output5* [1], *output10* [1]
 
 Your boss has told you to build the logic behind a vending machine.
+You will build a FSM and implement it in Logisim Evolution as a proof of concept.
+If you complete it, your boss will let you keep your job, but you won't get a promotion or pay bump on your next performance review.
+
 Due to hyperinflation, we are going to dispense 500 ml bottles of Coke for the low, low price of $35.
 Thankfully, tamper-proofing the vending machine is another team's job, so you don't need to worry about dealing with an angry Sean Davis.
-
 So that we don't have to pay transaction fees, we will only accept cash.
 In particular, we will only accept $5, $10, and $20 bills.
 $1 and $50 bills are too cumbersome to handle and $2 bills are all fake.
