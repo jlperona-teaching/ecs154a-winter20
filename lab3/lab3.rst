@@ -158,6 +158,13 @@ The commands would look like the following:
 Assuming you haven't moved anything in the tester circuit, when you generate your output, only the columns for output pins should have any differences.
 You can use the output ``diff`` generates to determine where your circuit is going wrong.
 
+If ``diff`` reports no changes, then congratulations!
+Your implementation is correct and you should get full credit when you submit to Gradescope.
+Make sure to submit the circuit files you've been working on and not the tester circuits; the autograder will ignore those.
+
+Line Endings
+""""""""""""
+
 Note that the TSV files have Unix (LF) line endings.
 If you are running Windows, you'll need to be careful about this, as evidenced by one post on Campuswire already.
 Windows (CRLF) line endings will cause ``diff`` to fail as the output does not match exactly.
@@ -170,14 +177,32 @@ If your circuit passes the autograder but is "incorrect" on every single line wh
 If you're running on Windows and are experiencing this issue, you have a couple of options:
 
 * clone the repository using GitHub Desktop or another Git client that will properly handle line endings on Windows for you
-* use a utility or a text editor like Sublime Text or Atom to convert the TSV files to CRLF line endings
+* use a text editor like Sublime Text, Atom, or Notepad++ to convert the TSV files to CRLF line endings
 * copy the contents of the TSV file and paste into Notepad/other text editor to resave it with CRLF line endings
 
-If ``diff`` reports no changes, then congratulations!
-Your implementation is correct and you should get full credit when you submit to Gradescope.
-Make sure to submit the circuit files you've been working on and not the tester circuits; the autograder will ignore those.
-
 .. _`This StackOverflow post`: https://stackoverflow.com/a/1552770
+
+PowerShell Issues
+"""""""""""""""""
+
+This section is only relevant if you're using PowerShell on Windows.
+See how Microsoft keeps coming up as a problem?
+
+If you're using PowerShell, you need to wrap the names of the two files given as inputs to ``diff`` with parentheses.
+Otherwise ``Compare-Object`` (which ``diff`` is aliased to) won't give the output you're expecting.
+
+The default file encoding for output files via redirects in PowerShell is UTF-16_.
+The original TSV files are encoded in UTF-8_, since that's just an extension of ASCII_.
+If your text editor attempts to interpret the file as UTF-8, you'll get mojibake_.
+
+Thankfully, ``diff`` will make it pretty clear that there's an issue if the encoding is different.
+If you're running on Windows and are experiencing this issue, use a text editor like Sublime Text, Atom, or Notepad++ to change the encoding to UTF-8 and resave.
+
+
+.. _UTF-16: https://en.wikipedia.org/wiki/UTF-16
+.. _UTF-8: https://en.wikipedia.org/wiki/UTF-8
+.. _ASCII: https://en.wikipedia.org/wiki/ASCII
+.. _mojibake: https://en.wikipedia.org/wiki/Mojibake
 
 Constraints
 ~~~~~~~~~~~
@@ -187,6 +212,9 @@ For these problems, you must use designs relying on only the following, unless s
 * AND, OR, and NOT gates
 * flip flops of any type
 * the Logisim Evolution wiring library
+
+If you want to use a NOR/NAND gate, implement it via AND, OR, and NOT gates.
+You will get a 0 on a problem if you violate the constraints above, unless specified otherwise.
 
 Certain problems have constraints on the number of certain types of gates or flip flops that you may use.
 Make sure to read those carefully.
