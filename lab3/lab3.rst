@@ -124,7 +124,7 @@ Generating Your Own Output Files
 """"""""""""""""""""""""""""""""
 
 Once you have loaded your circuit, it's time to generate your output file to check if your submission is correct.
-In your favorite terminal (I use PowerShell on Windows and Konsole on Kubuntu), use the following commands:
+In your favorite terminal (I use Konsole on Kubuntu), use the following commands:
 
 .. code-block:: bash
 
@@ -188,8 +188,9 @@ PowerShell Issues
 This section is only relevant if you're using PowerShell on Windows.
 See how Microsoft keeps coming up as a problem?
 
-If you're using PowerShell, you need to wrap the names of the two files given as inputs to ``diff`` with parentheses.
-Otherwise ``Compare-Object`` (which ``diff`` is aliased to) won't give the output you're expecting.
+I've had significant problems with trying to use ``diff`` or ``Compare-Object`` in PowerShell.
+I would recommend using WinMerge_ on Windows instead.
+It's a far better ``diff`` tool.
 
 The default file encoding for output files via redirects in PowerShell is UTF-16_.
 The original TSV files are encoded in UTF-8_, since that's just an extension of ASCII_.
@@ -198,7 +199,7 @@ If your text editor attempts to interpret the file as UTF-8, you'll get mojibake
 Thankfully, ``diff`` will make it pretty clear that there's an issue if the encoding is different.
 If you're running on Windows and are experiencing this issue, use a text editor like Sublime Text, Atom, or Notepad++ to change the encoding to UTF-8 and resave.
 
-
+.. _WinMerge: https://winmerge.org/?lang=en
 .. _UTF-16: https://en.wikipedia.org/wiki/UTF-16
 .. _UTF-8: https://en.wikipedia.org/wiki/UTF-8
 .. _ASCII: https://en.wikipedia.org/wiki/ASCII
@@ -402,18 +403,19 @@ If you violate both this and the previous constraint, you will get a 0.
 Your boss has told you to build the logic behind a vending machine.
 You will build a FSM and implement it in Logisim Evolution as a proof of concept.
 If you complete it, your boss will let you keep your job, but you won't get a promotion or pay bump on your next performance review.
+Several other people on your team were put on performance improvement plans last year due to stack ranking and your boss wants to keep the team together if possible.
 
 Due to hyperinflation, we are going to dispense 500 ml bottles of Coke for the low, low price of $35.
 Thankfully, tamper-proofing the vending machine is another team's job, so you don't need to worry about dealing with an angry Sean Davis.
 So that we don't have to pay transaction fees, we will only accept cash.
 In particular, we will only accept $5, $10, and $20 bills.
 $1 and $50 bills are too cumbersome to handle and $2 bills are all fake.
-Only one bill will be inserted into the machine at a time, if a bill is inserted at all.
-The relevant signal *input5*, *input10* or *input20* will become 1 if a bill has been deposited.
+Only one bill will be inserted into the machine at a time, *if a bill is inserted at all*.
+The relevant signal *input5*, *input10*, or *input20* will become 1 if a bill has been deposited.
 
 Once the last bill has been inserted, the merchandise signal *outputcoke* and change signals *output5* and *output10* are to be set at the same time.
 The vending machine can give a $5 or a $10 back; set one or both signals if appropriate.
-If a customer does something unwise and somehow gives you more money than you can give change for, correct change does not need to be given, but the maximum amount of change must be provided.
+If a customer somehow violates causality and gives you more money than you can give change for, correct change does not need to be given, but the maximum amount of change must be provided.
 
 You may use as many flip flops as you want for this problem, but you should only need 3.
 You will not lose any credit if you use more than 3 flip flops.
@@ -423,6 +425,7 @@ Minimizing Boolean functions with more than 4 inputs requires learning a special
 We are not going to do either in this class.
 Since minimizing the logic for this FSM would require the above, you do not need to do so.
 This also means there is no restriction on the number of AND and OR gates that you use, unlike the previous problems.
+The normal constraints still apply, however.
 
 Survey [6]
 ----------
