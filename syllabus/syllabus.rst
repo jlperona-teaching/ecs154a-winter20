@@ -32,7 +32,7 @@ Class
 Lecture
 ~~~~~~~
 
-*Monday, Wednesday, Friday*: 17:10 - 18:00, 176 Everson
+*Monday, Wednesday, Friday*: 17:10 - 18:00, 100 Hunt
 
 Discussions
 ~~~~~~~~~~~

@@ -438,10 +438,13 @@ I do these surveys to check how people feel about the lab and to see if I need t
 
 .. _`survey for this lab`: https://canvas.ucdavis.edu/courses/424855/quizzes/54946
 
-Extra Credit [?]
+Extra Credit [0]
 ----------------
 
-I'm still debating on a good extra credit problem.
-The original one I thought of involving beer became the extra credit problem for lab 4, so you'll have that to look forward to.
+I can't think of a good extra credit problem that I want to ask for this lab, so there won't be one.
+There will be an extra credit problem involving beer, credit card merchant fees, and outsourcing work to students on the next lab.
 
-If I do end up making one, I'll make an announcement on Campuswire when it's active.
+If you do want some extra credit, though, consider filling out the `mid-quarter survey on Canvas`_.
+This is optional; don't feel obliged to fill it out.
+
+.. _`mid-quarter survey on Canvas`: https://canvas.ucdavis.edu/courses/424855/quizzes/54386
