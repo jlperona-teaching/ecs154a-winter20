@@ -376,7 +376,10 @@ If you violate both this and the previous constraint, you will get a 0.
 * Output pin(s): *outputr* [1]
 
 Derive a minimal state table for a Mealy model FSM that acts as a sequence checker.
-During four consecutive clock pluses, a sequence of four values of the signal *x* is applied.
+During four consecutive clock cycles, a sequence of four values of the signal *x* is applied, forming a binary number.
+The oldest value of *x* would become the most significant bit in that binary number.
+The most recent value of *x* would become the least significant bit.
+
 The FSM will output *outputr = 1* when it detects that the previous 4 bit sequence was either 0010 or 1100.
 At all other times, including when the previous sequence was not those described previously, *outputr = 0*.
 Implement the FSM as a circuit in Logisim Evolution.
