@@ -12,6 +12,20 @@ ECS 154A - Lab 1 WQ 2020
 Logistics
 ---------
 
+Warning
+~~~~~~~
+
+**Read the Logisim Evolution section below before starting on the lab!**
+If you try to use the original Logisim, your submissions will fail the autograder.
+If you download Logisim Evolution from *anywhere else* other than the link I have provided below, your submissions will fail the autograder.
+If you have already downloaded Logisim Evolution elsewhere, delete what you've downloaded and redownload it.
+
+If you don't follow the instructions above, don't expect us to help you.
+It's extremely easy to tell if you're using the wrong version by looking at the second line of your circuit file in a text editor.
+If you use the wrong Logisim Evolution version, or use anything other than Logisim Evolution, that's on you.
+You're not going to get points back, late penalties waived, or due dates extended.
+**You've been warned.**
+
 Submission
 ~~~~~~~~~~
 
@@ -74,6 +88,8 @@ We will provide you with base circuits for each problem (see the *base/* subfold
 * move any of the pins already there
 * delete any of the pins already there
 * add extra pins
+* change the "Use new box layout" option on the base circuit to "No" (it should be yes)
+* change the "Use fixed-box size" option on the base circuit to "No" (it should be yes)
 
 If you do, your circuit might fail to run, error out, or give the wrong results.
 If it does, you'll get a 0.
