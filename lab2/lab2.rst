@@ -62,7 +62,7 @@ Implement the following function using a MUX:
     f(A, B, C, D) = m0 + m1 + m3 + m5 + m9 + m11 + m12
 
 You may not use gates for this problem.
-You may only use MUXes, splitters, constants, power, and ground.
+You may only use MUXes, NOT gates, splitters, constants, power, and ground.
 
 2. Decoder function implementation [5]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -136,7 +136,8 @@ You will also need to output the corresponding *generator* and *propagator* bits
 
 Your CLA must be a true CLA.
 If your unit ripples the carry rather than calculating each carry based on the *generator* and *propagator* bits, you will get a 0.
-The calculations for each bit of *carryout* should only be using *carryin* and not any *carryout* values you calculate.
+Your equations for C4, C3, C2, and C1 should purely be in terms of C0, or *carryin*.
+If a wire is feeding from your calculated C1 into your calculations for C2, or if you're duplicating the gates for C1 for use in C2, you're making a ripple-carry adder.
 
 While already specified above, you may not use anything from the Arithmetic library for this problem.
 Normally, you would use gate outputs inside a full adder for your generate and propagate signals.
