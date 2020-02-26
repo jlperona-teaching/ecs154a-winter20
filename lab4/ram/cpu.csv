@@ -1,0 +1,40 @@
+﻿op,rd,rs1,rs2,imm,comment
+movi,0,0,0,85,x0 = 01010101
+movi,1,1,1,42,x1 = 00101010
+and,2,0,1,0,x2 = 00000000
+or,3,0,1,0,x3 = 01111111
+not,4,0,0,0,x4 = 10101010
+add,5,0,1,0,x5 = 01111111
+mov,6,1,0,0,x6 = 00101010
+nop,0,0,0,0,
+sll,2,0,0,0,x2 = 10101010
+srl,3,0,0,0,x3 = 00101010
+sub,4,0,1,0,x4 = 00101011
+addi,5,0,0,85,x5 = 10101010
+subi,6,0,0,86,x6 = 11111111
+nop,0,0,0,0,
+movi,0,0,0,127,x0 = 01111111
+movi,1,0,0,31,x1 = 00011111
+and,2,0,1,0,x2 = 00011111
+or,3,1,1,0,x3 = 00011111
+not,4,0,0,0,x4 = 10000000
+add,5,0,1,0,x5 = 10011110
+mov,6,5,0,0,x6 = 10011110
+nop,0,0,0,0,
+sll,2,0,0,0,x2 = 11111110
+srl,3,0,0,0,x3 = 00111111
+sub,4,0,1,0,x4 = 01100000
+addi,5,0,0,85,x5 = 11010100
+subi,6,0,0,-127,x6 = 11111110
+add,6,6,1,0,x6 = 00011101
+xor,7,0,1,0,x7 = 01100000
+hlt,0,0,0,0,
+movi,0,0,0,127,x0 should not change
+movi,1,1,1,127,x1 should not change
+movi,2,2,2,127,x2 should not change
+movi,3,3,3,127,x3 should not change
+hcf,0,0,0,0,
+movi,4,4,4,127,pc should not reach here
+movi,5,5,5,127,pc should not reach here
+movi,6,6,6,127,pc should not reach here
+movi,7,7,7,127,pc should not reach here

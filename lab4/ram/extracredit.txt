@@ -1,0 +1,9 @@
+v2.0 raw
+110 510 910 d10 1110 1510 1910 1d10
+ff 4ff 8ff cff 10ff 14ff 18ff 1cff
+220 620 a20 e20 1220 1620 1a20 1e20
+1ff 5ff 9ff dff 11ff 15ff 19ff 1dff
+110 510 910 d10 1110 1510 1910 1d10
+ff 4ff 8ff cff 10ff 14ff 18ff 1cff
+220 620 a20 e20 1220 1620 1a20 1e20
+ff 4ff 8ff cff 10ff 14ff 18ff 1cff
