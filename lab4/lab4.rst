@@ -180,12 +180,11 @@ For these problems, you must use designs relying on only the following, unless s
 * the Logisim Evolution Gates library
 * the Logisim Evolution Plexers library
 * flip flops from the Logisim Evolution Memory library
-* RAM from the Logisim Evolution Memory library
+* RAM, registers, and counters from the Logisim Evolution Memory library
 * shifters from the from the Logisim Evolution Arithmetic library
 * comparators from the from the Logisim Evolution Arithmetic library
 
-ROMs, registers, and counters are explicitly disallowed.
-You must implement the storage in this lab via flip flops.
+ROMs are explicitly disallowed.
 Adders and subtractors are also explicitly disallowed.
 Make them via gates like you have in the past.
 
@@ -263,8 +262,8 @@ Program Counter
 """""""""""""""
 
 The PC will be an 8-bit up-counter that starts at 0 and wraps around upon saturation.
-You must make this counter out of flip flops of any type.
-You may not use the counter in the Memory library.
+You may use the built-in counter module to do so.
+I have to allow registers for the next part, and you can make a counter pretty easily out of a register and an adder or ALU.
 
 The output of the PC, *pc*, will feed the RAM the memory location of the instruction it should output.
 In addition, you will need to attach the *resetall* signal to the reset pins of the flip flops in your PC.
@@ -329,20 +328,20 @@ The registers' current values will be output as *x0* through *x7*.
 Hint: much like the Hamming(7,4) circuit, a decoder will be very useful here.
 
 Note that in this problem, *wen* will be provided for you.
+You should hook this up to the appropriate pin on the register module.
 When combining everything together, you will need to determine when *wen* should be 0 or 1.
 
-Additionally, you will need to attach the *resetall* signal to the reset pin of the flip flops in your registers.
+Additionally, you will need to attach the *resetall* signal to the reset pin of your registers.
 When this signal is asserted, all registers should be reset to 0.
 This is used to reset the CPU back to the start.
 
 Subcircuits and Constraints
 """""""""""""""""""""""""""
 
-I'd highly recommend making a subcircuit for a single register then using copies of the subcircuit to implement subsequent registers.
-You can use the register you built in Lab 3 as a basis for the individual register, but you will need to make some minor modifications to that one.
+You should (and effectively must) use registers to implement this problem.
+Flip flops don't have a write enable pin, which causes an interesting side effect when playing with the clock on attempting to disable a write.
 
-You may not use registers or RAM to implement your register file; doing so will result in a 0 for this problem.
-Use flip flops of any type.
+You may not use RAM to implement your register file; doing so will result in a 0 for this problem.
 Using a RAM will cause your CPU to break when we use the ``-load`` command line argument for the next problem.
 
 4. Single Cycle CPU [40]
