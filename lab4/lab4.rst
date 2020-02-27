@@ -576,7 +576,7 @@ You may use anything from the following for this problem:
 * the Logisim Evolution Gates library
 * the Logisim Evolution Plexers library
 * the Logisim Evolution Arithmetic library
-* flip flops from the Logisim Evolution Memory library
+* registers from the Logisim Evolution Memory library
 
-You may not use registers, ROMs, or RAM; doing so will result in a 0.
-Make your storage out of flip flops of any type.
+You may not use ROMs or RAM; doing so will result in a 0.
+Make your storage out of register modules.
