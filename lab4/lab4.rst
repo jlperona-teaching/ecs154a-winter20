@@ -457,7 +457,7 @@ If you are manually testing this subcircuit, you will want to set the initial co
 If you click on the RAM, on the left sidebar there is an option for *Initial contents* that you'll want to use.
 
 When you are testing this via the tester, you'll need to make a slight change to the command line argument you use.
-You should add ``-load ram/4.txt`` to the end of the command.
+You should add ``-load ram/cpu.txt`` to the end of the command.
 This tells Logisim Evolution to load the RAM in your subcircuit with the expected program.
 Thus, a full command for the tester for this part will look like this:
 
