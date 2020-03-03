@@ -218,6 +218,11 @@ When combining everything together, you will need to figure out how to handle th
 Carry Look-ahead for Adding and Subtracting
 """""""""""""""""""""""""""""""""""""""""""
 
+**If you are importing your CLA from a previous part, don't use the Load Library feature!**
+The autograder expects only the named files.
+Your CLA and any other subcircuits needs to be in the same file as your main circuit file, *not a separate one.*
+You can use the *Merge...* feature instead to import your CLA or other subcircuit.
+
 For the adder and subtractor, you must use carry look-ahead for each group of 4 bits.
 Note that you have already built a 4-bit CLA unit in Lab 2, assuming we didn't mark you for rippling the carry.
 
