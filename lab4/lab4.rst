@@ -179,10 +179,8 @@ For these problems, you must use designs relying on only the following, unless s
 * the Logisim Evolution Wiring library
 * the Logisim Evolution Gates library
 * the Logisim Evolution Plexers library
-* flip flops from the Logisim Evolution Memory library
-* RAM, registers, and counters from the Logisim Evolution Memory library
-* shifters from the from the Logisim Evolution Arithmetic library
-* comparators from the from the Logisim Evolution Arithmetic library
+* flip flops, RAM, registers, and counters from the Logisim Evolution Memory library
+* shifters and comparators from the from the Logisim Evolution Arithmetic library
 
 ROMs are explicitly disallowed.
 Adders and subtractors are also explicitly disallowed.
@@ -295,7 +293,7 @@ If you are manually testing this subcircuit, you will want to set the initial co
 If you click on the RAM, on the left sidebar there is an option for *Initial contents* that you'll want to use.
 
 When you are testing this via the tester, you'll need to make a slight change to the command line argument you use.
-You should add ``-load ram/4.txt`` to the end of the command.
+You should add ``-load ram/cpu.txt`` to the end of the command.
 This tells Logisim Evolution to load the RAM in your subcircuit with the expected program.
 Thus, a full command for the tester for this part will look like this:
 
@@ -570,7 +568,7 @@ The second one, inside the ROM, corresponds to the contents in *ram/extracredit.
 It is a much simpler program designed to test certain cases for *transactiontype* and *transactionresult*.
 This one will not be used during the grading process; it is solely to help you test your circuit.
 
-If you would like to change between the two for your testing purposes, change the constant for *programchoice* inside the tester file to 0 or 1.
+If you would like to change between the two for your testing purposes, change the constant for *programchoice* inside the tester file appropriately.
 
 Constraints
 ~~~~~~~~~~~
@@ -581,7 +579,7 @@ You may use anything from the following for this problem:
 * the Logisim Evolution Gates library
 * the Logisim Evolution Plexers library
 * the Logisim Evolution Arithmetic library
-* registers from the Logisim Evolution Memory library
+* flip flops and registers from the Logisim Evolution Memory library
 
 You may not use ROMs or RAM; doing so will result in a 0.
-Make your storage out of register modules.
+Make your storage out of flip flops or register modules.
