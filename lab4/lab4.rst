@@ -15,7 +15,9 @@ Logistics
 Submission
 ~~~~~~~~~~
 
-Due by 20:00 on Friday, 2020-03-13.
+Due by 20:00 on Tuesday, 2020-03-17.
+**There is no late submission for this lab!**
+This also means there's no late penalty, so you have four more days to work on it without being penalized.
 
 Turn in for the Logisim Evolution portion is on Gradescope.
 Submit the specified .circ files for each problem.
