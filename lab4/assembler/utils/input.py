@@ -1,16 +1,16 @@
 import csv
-import sys
 
 from utils.machinecode import MachineCode
 
-# input file parsing
-def parse_input(args, all_machine_code):
+
+def parse_input(args, all_machine_code) -> None:
+    """Parse input CSV into a list of MachineCode objects."""
     # open file and begin reading data
     with open(args.infile) as infile:
         csvreader = csv.reader(infile)
 
         # skip header line depending on command line arguments
-        if args.noheader == False:
+        if args.noheader is False:
             next(csvreader)
 
         # for every line in the csv file
@@ -43,5 +43,6 @@ def parse_input(args, all_machine_code):
                 raise Exception(invalid_assembly_exception) from None
 
             # create new machine code
-            current_machine_code = MachineCode(op, rd, rs1, rs2, imm, line_number)
+            current_machine_code = MachineCode(op, rd, rs1, rs2,
+                                               imm, line_number)
             all_machine_code.append(current_machine_code)
