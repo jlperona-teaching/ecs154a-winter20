@@ -1,6 +1,6 @@
 :Author: Justin Perona
 :Copyright: © 2020 Justin Perona
-:License: CC BY-NC 4.0
+:License: CC BY-SA 4.0
 
 .. _Campuswire: https://campuswire.com/c/G59B70B2E
 .. _Canvas: https://canvas.ucdavis.edu/courses/424855
@@ -18,7 +18,7 @@ ECS 154A - Computer Architecture
 License and Attribution
 -----------------------
 
-Content is licensed under CC BY-NC 4.0.
+Content is licensed under CC BY-SA 4.0.
 See the LICENSE_ file for more information.
 
 Credit for the course layout and some of the content is given to Jason Lowe-Power of UC Davis.
